@@ -4,16 +4,16 @@
 #
 Name     : ibus-libpinyin
 Version  : 1.6.91
-Release  : 1
-URL      : http://downloads.sourceforge.net/libpinyin/ibus-libpinyin/ibus-libpinyin-1.6.91.tar.gz
-Source0  : http://downloads.sourceforge.net/libpinyin/ibus-libpinyin/ibus-libpinyin-1.6.91.tar.gz
+Release  : 2
+URL      : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.6.91.tar.gz
+Source0  : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.6.91.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-2.0
-Requires: ibus-libpinyin-bin
-Requires: ibus-libpinyin-data
-Requires: ibus-libpinyin-license
-Requires: ibus-libpinyin-locales
+Requires: ibus-libpinyin-data = %{version}-%{release}
+Requires: ibus-libpinyin-libexec = %{version}-%{release}
+Requires: ibus-libpinyin-license = %{version}-%{release}
+Requires: ibus-libpinyin-locales = %{version}-%{release}
 BuildRequires : gettext
 BuildRequires : intltool
 BuildRequires : perl(XML::Parser)
@@ -30,22 +30,21 @@ Intelligent Pinyin engine based on libpinyin for IBus
 Description
 It includes a Chinese Pinyin input method and a Chinese ZhuYin (Bopomofo) input method based on libpinyin for IBus.
 
-%package bin
-Summary: bin components for the ibus-libpinyin package.
-Group: Binaries
-Requires: ibus-libpinyin-data
-Requires: ibus-libpinyin-license
-
-%description bin
-bin components for the ibus-libpinyin package.
-
-
 %package data
 Summary: data components for the ibus-libpinyin package.
 Group: Data
 
 %description data
 data components for the ibus-libpinyin package.
+
+
+%package libexec
+Summary: libexec components for the ibus-libpinyin package.
+Group: Default
+Requires: ibus-libpinyin-license = %{version}-%{release}
+
+%description libexec
+libexec components for the ibus-libpinyin package.
 
 
 %package license
@@ -72,25 +71,20 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1536452700
+export SOURCE_DATE_EPOCH=1545265591
 %configure --disable-static --disable-lua-extension
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1536452700
+export SOURCE_DATE_EPOCH=1545265591
 rm -rf %{buildroot}
-mkdir -p %{buildroot}/usr/share/doc/ibus-libpinyin
-cp COPYING %{buildroot}/usr/share/doc/ibus-libpinyin/COPYING
+mkdir -p %{buildroot}/usr/share/package-licenses/ibus-libpinyin
+cp COPYING %{buildroot}/usr/share/package-licenses/ibus-libpinyin/COPYING
 %make_install
 %find_lang ibus-libpinyin
 
 %files
 %defattr(-,root,root,-)
-
-%files bin
-%defattr(-,root,root,-)
-/usr/libexec/ibus-engine-libpinyin
-/usr/libexec/ibus-setup-libpinyin
 
 %files data
 %defattr(-,root,root,-)
@@ -117,9 +111,14 @@ cp COPYING %{buildroot}/usr/share/doc/ibus-libpinyin/COPYING
 /usr/share/ibus-libpinyin/setup/main2.pyc
 /usr/share/ibus/component/libpinyin.xml
 
-%files license
+%files libexec
 %defattr(-,root,root,-)
-/usr/share/doc/ibus-libpinyin/COPYING
+/usr/libexec/ibus-engine-libpinyin
+/usr/libexec/ibus-setup-libpinyin
+
+%files license
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/ibus-libpinyin/COPYING
 
 %files locales -f ibus-libpinyin.lang
 %defattr(-,root,root,-)
