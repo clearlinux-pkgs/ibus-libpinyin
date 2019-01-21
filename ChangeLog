@@ -1,3 +1,110 @@
+commit 9b15d6b86ad84cee5c86c9e27fd24107c6eab89f
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2019-01-15 11:57:09 +0800
+
+    update ChangeLog
+
+M	ChangeLog
+
+commit f7723fe9a30ea73f6308437e3fa83a140fdf0c02
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2019-01-15 11:50:31 +0800
+
+    bump version 1.11.0
+
+M	configure.ac
+
+commit 7c565e402369eaa82790b9f2550ec11ffd87e7ab
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2019-01-13 19:16:06 +0800
+
+    fixes typo
+
+M	src/PYFallbackEditor.cc
+
+commit 9a1474c0e4972fa4d7c53e19ac939f6d3faacc69
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2019-01-11 15:41:11 +0800
+
+    fixes keypad decimal
+
+M	src/PYFallbackEditor.cc
+
+commit a0a9fd6b1deb4384ac7ca8ce0bc35c98d1193339
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2019-01-11 09:59:06 +0800
+
+    fixes updateCandidates method
+
+M	src/PYPPhoneticEditor.cc
+
+commit 052273cbf8f046eb7442bc036823934a68754eb9
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2019-01-09 14:31:56 +0800
+
+    bump version 1.10.93
+
+M	configure.ac
+
+commit 742fdb83a12f5238c0cab3d6ff6b6227c260e2f9
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2019-01-04 12:45:16 +0800
+
+    update GSettings xml
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+commit d5e38a036b85a011db6a251c814a2f2ee768e6cd
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2019-01-04 12:42:09 +0800
+
+    minor fixes
+
+M	src/PYPConfig.cc
+
+commit 42b2a4c1fbef71dadc97d0a820d96db977393495
+Author: Marcin Mielniczuk <marmistrz.dev@zoho.eu>
+Date:   2018-12-27 16:56:18 +0100
+
+    Support configurable opencc config
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+M	src/PYConfig.cc
+M	src/PYConfig.h
+M	src/PYPConfig.cc
+M	src/PYPPhoneticEditor.cc
+M	src/PYPSuggestionEditor.cc
+M	src/PYPTradCandidates.cc
+M	src/PYPTradCandidates.h
+M	src/PYSimpTradConverter.cc
+M	src/PYSimpTradConverter.h
+
+commit dd4699124dbaacf5119092d82c090917b78a5f1a
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2018-11-15 10:58:18 +0800
+
+    update english-user.db path
+
+M	src/PYEnglishEditor.cc
+
+commit b780a46a6914de95a77c4296ddcb45e01e2bfd64
+Author: ZhaoQiang <zhaoqiang@gnome.org>
+Date:   2018-11-14 12:19:49 +0800
+
+    Update PYPEmojiCandidates.cc: change strcmp to use c++ library.
+
+M	src/PYPEmojiCandidates.cc
+
+commit be40c06eb53f4832cc741c09b58e2afa5d8f2ce4
+Author: DevilApp <35273268+DevilApp@users.noreply.github.com>
+Date:   2018-11-11 18:45:21 +0100
+
+    Fixed french translation
+    
+    I have updated the outdated french translation and fixed some language errors. Now there's some strings left.
+
+M	po/fr.po
+
 commit 0401ff95be8f8b906d7a79feded7482c4172b28f
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2018-10-31 13:18:22 +0800
