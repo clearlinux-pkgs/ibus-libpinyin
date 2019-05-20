@@ -4,7 +4,7 @@
 #
 Name     : ibus-libpinyin
 Version  : 1.11.1
-Release  : 5
+Release  : 6
 URL      : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.11.1.tar.gz
 Source0  : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.11.1.tar.gz
 Summary  : Intelligent Pinyin engine based on libpinyin for IBus
@@ -15,6 +15,7 @@ Requires: ibus-libpinyin-libexec = %{version}-%{release}
 Requires: ibus-libpinyin-license = %{version}-%{release}
 Requires: ibus-libpinyin-locales = %{version}-%{release}
 BuildRequires : gettext
+BuildRequires : lua-dev
 BuildRequires : perl(XML::Parser)
 BuildRequires : pkgconfig(gio-2.0)
 BuildRequires : pkgconfig(ibus-1.0)
@@ -71,7 +72,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1558339419
+export SOURCE_DATE_EPOCH=1558339547
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
@@ -83,7 +84,7 @@ export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1558339419
+export SOURCE_DATE_EPOCH=1558339547
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/ibus-libpinyin
 cp COPYING %{buildroot}/usr/share/package-licenses/ibus-libpinyin/COPYING
