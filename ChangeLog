@@ -1,3 +1,77 @@
+commit 86cd6d89193b2137f6ad622e1b6939ae2677fc1b
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2019-05-09 15:02:14 +0800
+
+    fixes desktop files
+
+M	data/Makefile.am
+
+commit d28daf1b85a0e52b2bfb7c82e901dce60df34cde
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2019-05-09 14:27:55 +0800
+
+    add both-switch option
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+M	setup/shortcuteditor.py
+M	src/PYConfig.cc
+M	src/PYConfig.h
+M	src/PYPBopomofoEngine.cc
+M	src/PYPConfig.cc
+M	src/PYPPinyinEngine.cc
+
+commit 27103d833d0aa6e572bd769695447ff4162269a5
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2019-05-07 14:49:49 +0800
+
+    update ChangeLog
+
+M	ChangeLog
+
+commit 2328a50d678a6fd737057b57f593f67ea10744df
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2019-04-29 16:39:27 +0800
+
+    fixes SuggestionEditor
+
+M	src/PYPSuggestionEditor.cc
+
+commit dcd9f98ae004cfb1270d472adc9cafcca0e625da
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2019-03-07 17:41:11 +0800
+
+    Use gettext
+
+M	Makefile.am
+M	configure.ac
+M	data/Makefile.am
+R100	data/ibus-setup-libbopomofo.desktop.in.in	data/ibus-setup-libbopomofo.desktop.in
+R100	data/ibus-setup-libpinyin.desktop.in.in	data/ibus-setup-libpinyin.desktop.in
+M	m4/Makefile.am
+M	po/Makevars
+M	po/POTFILES.in
+M	po/POTFILES.skip
+
+commit 730847008beb5af220c0a9b1b5c713ba23560984
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2019-02-19 16:44:16 +0800
+
+    add emoji-candidate option
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+M	src/PYConfig.cc
+M	src/PYConfig.h
+M	src/PYPConfig.cc
+M	src/PYPPhoneticEditor.cc
+
+commit 8ff8a7027673b036a4e4eb2d927abc20ec21cc26
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2019-02-19 16:32:56 +0800
+
+    bump version 1.11.1
+
+M	configure.ac
+
 commit 9b15d6b86ad84cee5c86c9e27fd24107c6eab89f
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2019-01-15 11:57:09 +0800
