@@ -1,3 +1,372 @@
+commit 24f673d6480ce15fc7f37af848f149e0a366d18a
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-08-25 15:32:24 +0800
+
+    update NEWS
+
+M	NEWS
+
+commit b5f4fb8872d5cad3e9771d296d8ef83c29234b8f
+Author: Emilio Herrera <ehespinosa57@gmail.com>
+Date:   2020-08-24 17:29:18 +0200
+
+    Translated using Weblate (Spanish)
+    
+    Currently translated at 100.0% (136 of 136 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/es/
+
+M	po/es.po
+
+commit 033a8ca044f4c75986cdcff7bc827a8b7e039ccb
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   2020-08-24 17:29:18 +0200
+
+    Translated using Weblate (German)
+    
+    Currently translated at 100.0% (150 of 150 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/de/
+    
+    Added translation using Weblate (German)
+
+M	po/LINGUAS
+A	po/de.po
+
+commit 5b0f0288a3ae5d2e747696296535430ddc24a494
+Author: Hillwood Yang <hillwoodroc@gmail.com>
+Date:   2020-08-24 17:29:17 +0200
+
+    Translated using Weblate (Chinese (Hong Kong))
+    
+    Currently translated at 75.6% (115 of 152 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_HK/
+
+M	po/zh_HK.po
+
+commit 74acade82207a1d358f4bdc4c29735fe8f0488f6
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-08-21 12:11:33 +0800
+
+    fixes processAccelKeyEvent method
+
+M	src/PYPPinyinEngine.cc
+
+commit 584dc7037ecc1d1c305d175bca6ddd5c8e3d8d81
+Author: Weblate <noreply@weblate.org>
+Date:   2020-08-11 06:40:11 +0200
+
+    Update translation files
+    
+    Updated by "Update PO files to match POT (msgmerge)" hook in Weblate.
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/
+
+M	po/ca.po
+M	po/cs.po
+M	po/es.po
+M	po/fr.po
+M	po/pt-BR.po
+M	po/ru.po
+M	po/uk.po
+M	po/zh_CN.po
+M	po/zh_HK.po
+M	po/zh_TW.po
+
+commit 10f113940c03f6b9b86071011281605f3f3f42ec
+Author: Weblate <noreply@weblate.org>
+Date:   2020-08-11 06:39:57 +0200
+
+    Update translation files
+    
+    Updated by "Update LINGUAS file" hook in Weblate.
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/
+
+M	po/LINGUAS
+
+commit 9cb895957a1040c536c0d6342cc71cc9cfa7217e
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-08-10 16:12:45 +0800
+
+    import ibus-libpinyin.pot
+
+A	po/ibus-libpinyin.pot
+
+commit 8faeee14d547d932d111908f48c0895909c7e677
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-08-10 16:00:06 +0800
+
+    import po files
+
+A	po/cs.po
+A	po/es.po
+A	po/pt-BR.po
+A	po/uk.po
+
+commit e2c7237de7086d197cb9897c223a9e60fb9813c1
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-07-29 13:34:39 +0800
+
+    fixes readNetworkDictionary method
+
+M	src/PYLibPinyin.cc
+
+commit ad0f4f3419c0652fb18c5f20b3fd94244ed7553c
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-07-28 14:06:20 +0800
+
+    use modified method instead of pinyin_save function
+
+M	src/PYLibPinyin.cc
+
+commit 0f9bfcb1320465116aaaeaa290ec80c0b86cb81d
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-07-28 13:05:05 +0800
+
+    Restore Bopomofo Editor
+
+M	src/PYPBopomofoEditor.cc
+M	src/PYPPhoneticEditor.cc
+
+commit 318aea3862c6dbc382ccca6c7ea75c198e28b75e
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-07-27 10:47:14 +0800
+
+    fixes mainSwitch shortcut key
+
+M	src/PYPPinyinEngine.cc
+
+commit 8b38d6cdad15a9d21976ed783cf7ba945385e16e
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-07-27 10:29:22 +0800
+
+    fixes PYLibPinyin.cc
+
+M	src/PYLibPinyin.cc
+
+commit 7bf1a089547be9add7cb01a5e7b45806031f99ff
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-07-23 15:58:51 +0800
+
+    fixes Network Dictionary
+
+M	src/PYLibPinyin.cc
+
+commit f4570dd9d1694e676c49984233ecc4f68719dde3
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-07-23 15:22:02 +0800
+
+    update com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+commit 49cbae6d9a9df24fa73dc55a684e52d8fcdd0dcf
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-07-21 15:27:45 +0800
+
+    init network dictionary
+
+M	src/PYLibPinyin.cc
+
+commit 035d5fdda849c2b1d369fbfcb6ebe705ca2c3221
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-06-23 14:22:38 +0800
+
+    support network dictionary timestamp in GSettings
+
+M	src/PYConfig.cc
+M	src/PYConfig.h
+M	src/PYPConfig.cc
+M	src/PYPConfig.h
+
+commit dc67c6437dd2f3a5790c7065f03631a123e144db
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-06-19 15:10:49 +0800
+
+    write readNetworkDictionary method
+
+M	src/PYLibPinyin.cc
+M	src/PYLibPinyin.h
+
+commit 8d7e340b73caa3033040e229cc6198357a127823
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-06-18 14:42:44 +0800
+
+    update gschema.xml
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+commit 296f5b22a8f86da8cd8409301bd161c394776147
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-06-16 16:07:02 +0800
+
+    import network.txt
+
+M	data/Makefile.am
+A	data/network.txt
+
+commit ac395bd59da86505b1ee00f3edd64f03f654aa33
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-07-21 13:02:53 +0800
+
+    Fixes Bopomofo Editor
+
+M	src/PYPBopomofoEditor.cc
+M	src/PYPPhoneticEditor.cc
+
+commit f3faeeff3fbe3bf9e30ed4461c2c8d0466966e56
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-07-06 09:59:05 +0800
+
+    fixes lmyoslib.c
+
+M	lua/lmyoslib.c
+
+commit 45bdf39e41a41fe4cc7f087948eec461145cfb5c
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-06-17 16:51:54 +0800
+
+    update PYPEmojiTable.h
+
+M	src/PYPEmojiTable.h
+
+commit 59785f2de60591fe738f79bb6fbc46d9737bb556
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-06-17 16:20:24 +0800
+
+    update extract_emoji.py
+
+M	scripts/extract_emoji.py
+
+commit db96866788ab60ce94d329b118443c2e9aed6dd9
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-04-23 15:43:28 +0800
+
+    update Makefile.am
+
+M	Makefile.am
+M	data/Makefile.am
+M	data/db/android/Makefile.am
+M	lua/Makefile.am
+M	m4/Makefile.am
+M	setup/Makefile.am
+M	src/Makefile.am
+
+commit 9aac9382caa1a034aa86e253241fe3a56b02844d
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-04-23 15:38:08 +0800
+
+    use GPLv3+ license
+
+M	lua/lua-ext-console.c
+M	lua/lua-plugin-init.c
+M	lua/lua-plugin.c
+M	lua/lua-plugin.h
+M	lua/test-lua-plugin.c
+M	src/PYBus.h
+M	src/PYConfig.cc
+M	src/PYConfig.h
+M	src/PYEditor.cc
+M	src/PYEditor.h
+M	src/PYEngine.cc
+M	src/PYEngine.h
+M	src/PYEnglishEditor.cc
+M	src/PYEnglishEditor.h
+M	src/PYExtEditor.cc
+M	src/PYExtEditor.h
+M	src/PYFallbackEditor.cc
+M	src/PYFallbackEditor.h
+M	src/PYHalfFullConverter.cc
+M	src/PYHalfFullConverter.h
+M	src/PYLibPinyin.cc
+M	src/PYLibPinyin.h
+M	src/PYLookupTable.h
+M	src/PYMain.cc
+M	src/PYObject.h
+M	src/PYPBopomofoEditor.cc
+M	src/PYPBopomofoEditor.h
+M	src/PYPBopomofoEngine.cc
+M	src/PYPBopomofoEngine.h
+M	src/PYPConfig.cc
+M	src/PYPConfig.h
+M	src/PYPDoublePinyinEditor.cc
+M	src/PYPDoublePinyinEditor.h
+M	src/PYPEmojiCandidates.cc
+M	src/PYPEmojiCandidates.h
+M	src/PYPEnhancedCandidates.h
+M	src/PYPFullPinyinEditor.cc
+M	src/PYPFullPinyinEditor.h
+M	src/PYPLibPinyinCandidates.cc
+M	src/PYPLibPinyinCandidates.h
+M	src/PYPLuaConverterCandidates.cc
+M	src/PYPLuaConverterCandidates.h
+M	src/PYPLuaTriggerCandidates.cc
+M	src/PYPLuaTriggerCandidates.h
+M	src/PYPPhoneticEditor.cc
+M	src/PYPPhoneticEditor.h
+M	src/PYPPinyinEditor.cc
+M	src/PYPPinyinEditor.h
+M	src/PYPPinyinEngine.cc
+M	src/PYPPinyinEngine.h
+M	src/PYPSuggestionCandidates.cc
+M	src/PYPSuggestionCandidates.h
+M	src/PYPSuggestionEditor.cc
+M	src/PYPTradCandidates.cc
+M	src/PYPTradCandidates.h
+M	src/PYPinyinProperties.cc
+M	src/PYPinyinProperties.h
+M	src/PYPointer.h
+M	src/PYProperty.h
+M	src/PYPunctEditor.cc
+M	src/PYPunctEditor.h
+M	src/PYRawEditor.h
+M	src/PYSignal.h
+M	src/PYSimpTradConverter.cc
+M	src/PYSimpTradConverter.h
+M	src/PYString.h
+M	src/PYText.h
+M	src/PYTypes.h
+M	src/PYUtil.h
+
+commit 215418a204ef83cfed6c90a5ce092cadd4a95d5f
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-04-23 14:55:19 +0800
+
+    update COPYING
+
+M	COPYING
+
+commit 1e9f1f343f4c098fc9619364233e905182eba9bb
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-04-13 14:45:42 +0800
+
+    update appdatadir
+
+M	data/Makefile.am
+
+commit f026d3f074786482f1b00b19811838b9535a99bb
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-04-13 14:43:16 +0800
+
+    bump version 1.11.93
+
+M	configure.ac
+
+commit 79046a6fcb1fcb7c8d316ab958264f9b23837c9d
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-03-27 12:08:19 +0800
+
+    fixes ExtEditor
+
+M	src/PYExtEditor.cc
+
 commit 117b8c6752650317be76ab007cb1018a2d0a2d34
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2020-03-19 16:26:32 +0800
