@@ -4,7 +4,7 @@
 #
 Name     : ibus-libpinyin
 Version  : 1.11.93
-Release  : 8
+Release  : 9
 URL      : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.11.93.tar.gz
 Source0  : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.11.93.tar.gz
 Summary  : No detailed summary available
