@@ -1,3 +1,615 @@
+commit 3206261d58711d7c42baca5ba680758a708f4bf9
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-10-22 11:09:14 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit da68617e606b60a019b025921d0f7af78149701e
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-10-15 16:21:18 +0800
+
+    Improve clearPinyinUserData method
+
+M	src/PYLibPinyin.cc
+
+commit c346468fdf9ef8f7f6c8acd0dc54b976b1dafd14
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-29 11:33:27 +0800
+
+    Fixes import/export dictionary in setup dialog
+
+M	setup/main2.py
+
+commit bc063522f2945776cf3c70d33ba32dc31d1d603f
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-28 10:28:17 +0800
+
+    Save user pinyin data after import the dictionary
+
+M	src/PYLibPinyin.cc
+
+commit 0d46fe7842c179bc4b2ad88a27ddeed9d0af9220
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-25 10:27:19 +0800
+
+    refactor class CloudCandidates
+
+M	src/PYPCloudCandidates.cc
+
+commit 117d390aea32de451a497b5f1bc1d9391f123079
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-25 10:24:57 +0800
+
+    Use enum CloudInputSource
+
+M	src/PYConfig.h
+M	src/PYPCloudCandidates.cc
+M	src/PYPCloudCandidates.h
+M	src/PYPConfig.cc
+
+commit 2823391970f8f6798340fdce8e514cc239054dd0
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-25 09:26:52 +0800
+
+    Update setup dialog
+
+M	setup/ibus-libpinyin-preferences.ui
+
+commit df0c1ab351127618b0016b06803ca1a5fb2a65ca
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-25 09:20:53 +0800
+
+    Add another cloud input source
+
+M	src/PYConfig.h
+M	src/PYPCloudCandidates.cc
+
+commit 0492fc31565ebd35f6ac14769203bdce752f8d7a
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-24 15:04:30 +0800
+
+    Update base.lua
+
+M	lua/base.lua
+
+commit eea3b45a2400d09092b1d5f15c07225249249e7d
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-23 15:49:35 +0800
+
+    Fixes CloudCandidates::updateLookupTable method
+
+M	src/PYPCloudCandidates.cc
+
+commit 7ecb3750e81e791fa554f34a745cbd1384b45ea0
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-23 12:09:54 +0800
+
+    drop CloudCandidatesResponseParser::getAnnotation method
+
+M	src/PYPCloudCandidates.cc
+
+commit 55f095629bb76cad1b8381e715fc69ed4167f9eb
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-23 09:47:55 +0800
+
+    Fixes CloudCandidates::processCandidates method
+
+M	src/PYPCloudCandidates.cc
+
+commit f09dc5f280bc81f50221da464f6cd943652eac16
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-23 09:44:33 +0800
+
+    Use GTimer in class CloudCandidates
+
+M	src/PYPCloudCandidates.cc
+M	src/PYPCloudCandidates.h
+
+commit ad280ed7c07eb0a39c23c1274fc40cf2f2213e2a
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-22 16:06:42 +0800
+
+    Update cloud candidate input design
+
+M	src/PYPCloudCandidates.cc
+M	src/PYPCloudCandidates.h
+
+commit 91643cabc8fd54fcccf2255138f8f840621cd944
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-22 12:18:30 +0800
+
+    fixes initPinyinContext method
+
+M	src/PYLibPinyin.cc
+
+commit abcb6d5eb7736207e8af6ceaa1ce2f0a993a852b
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-22 12:10:01 +0800
+
+    fixes CloudCandidates crash
+
+M	src/PYPCloudCandidates.cc
+M	src/PYPCloudCandidates.h
+
+commit 0e6091ca1e3577db003698f5696dff65ef2118c3
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-22 11:01:48 +0800
+
+    improve cloudAsyncRequest method
+
+M	src/PYPCloudCandidates.cc
+M	src/PYPCloudCandidates.h
+
+commit db9d9d43f8db12426e26abb0940bf4ddb7f408c3
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-21 16:10:45 +0800
+
+    refactor class CloudCandidates
+
+M	src/PYPCloudCandidates.cc
+M	src/PYPCloudCandidates.h
+
+commit 2ab5cf72ffe5d71c3bb182fec7b78133991beedd
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-21 15:37:18 +0800
+
+    refactor m_parser variable in class CloudCandidates
+
+M	src/PYConfig.cc
+M	src/PYConfig.h
+M	src/PYPCloudCandidates.cc
+M	src/PYPCloudCandidates.h
+M	src/PYPConfig.cc
+
+commit 5bb4e1afcb01dcd2aa90702cd3268b22589f8d66
+Author: hillwoodroc <hillwood@opensuse.org>
+Date:   2020-09-19 21:31:43 +0800
+
+    Update network.txt
+
+M	data/network.txt
+
+commit 6f832e07df279b4938354e2b96190845dc6b5b45
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   2020-09-17 09:29:26 +0200
+
+    Translated using Weblate (German)
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/de/
+
+M	po/de.po
+
+commit 34b539e0281d228b8caf4357f71aa4159d913605
+Author: Yuri Chornoivan <yurchor@ukr.net>
+Date:   2020-09-17 09:29:26 +0200
+
+    Translated using Weblate (Ukrainian)
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/uk/
+
+M	po/uk.po
+
+commit b5e1bba4b7bc25821bfa87bb0cc8791ff39b97b2
+Author: Hillwood Yang <hillwoodroc@gmail.com>
+Date:   2020-09-16 04:58:11 +0200
+
+    Translated using Weblate (Chinese (Traditional))
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_TW/
+    
+    Translated using Weblate (Chinese (Hong Kong))
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_HK/
+    
+    Translated using Weblate (Chinese (Simplified))
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+
+M	po/zh_CN.po
+M	po/zh_HK.po
+M	po/zh_TW.po
+
+commit a3d639e96fe07c93da079c2c48c29cd8743ea3bf
+Author: Peng Wu <pwu@redhat.com>
+Date:   2020-09-16 04:58:11 +0200
+
+    Translated using Weblate (Chinese (Simplified))
+    
+    Currently translated at 99.3% (155 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+    
+    Translated using Weblate (Chinese (Simplified))
+    
+    Currently translated at 97.4% (152 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+    
+    Translated using Weblate (Chinese (Simplified))
+    
+    Currently translated at 97.4% (152 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+
+M	po/zh_CN.po
+
+commit a7419c778cf9f482e79767087ed4fda7a17b9d9b
+Author: Weblate <noreply@weblate.org>
+Date:   2020-09-16 04:58:11 +0200
+
+    Update translation files
+    
+    Updated by "Update PO files to match POT (msgmerge)" hook in Weblate.
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/
+
+M	po/ca.po
+M	po/cs.po
+M	po/de.po
+M	po/es.po
+M	po/fr.po
+M	po/pt-BR.po
+M	po/ru.po
+M	po/uk.po
+M	po/zh_CN.po
+M	po/zh_HK.po
+M	po/zh_TW.po
+
+commit c8345ac3e82f198a6e511b7413ada962b12d799c
+Author: Harry Chen <harrychen0314@gmail.com>
+Date:   2020-09-16 04:58:10 +0200
+
+    Translated using Weblate (Chinese (Simplified))
+    
+    Currently translated at 96.7% (151 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+
+M	po/zh_CN.po
+
+commit 695078f427be1d717f9b2341838a499eb1f8e812
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   2020-09-16 04:58:10 +0200
+
+    Translated using Weblate (German)
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/de/
+    
+    Translated using Weblate (German)
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/de/
+    
+    Translated using Weblate (German)
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/de/
+
+M	po/de.po
+
+commit cd19dd55588b5d03311b912c8ecdb292b46b4f96
+Author: Yuri Chornoivan <yurchor@ukr.net>
+Date:   2020-09-16 04:58:10 +0200
+
+    Translated using Weblate (Ukrainian)
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/uk/
+    
+    Translated using Weblate (Ukrainian)
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/uk/
+    
+    Translated using Weblate (Ukrainian)
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/uk/
+
+M	po/uk.po
+
+commit 1ae4b59228d65dfcb632e44d8d87082bb6d62797
+Author: Weblate <noreply@weblate.org>
+Date:   2020-09-16 04:58:10 +0200
+
+    Update translation files
+    
+    Updated by "Update PO files to match POT (msgmerge)" hook in Weblate.
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/
+
+M	po/ca.po
+M	po/cs.po
+M	po/de.po
+M	po/es.po
+M	po/fr.po
+M	po/pt-BR.po
+M	po/ru.po
+M	po/uk.po
+M	po/zh_CN.po
+M	po/zh_HK.po
+M	po/zh_TW.po
+
+commit 2d08e64f7157becd52ff1c0fec5f190c87365f33
+Author: Hillwood Yang <hillwoodroc@gmail.com>
+Date:   2020-09-16 04:58:09 +0200
+
+    Translated using Weblate (Chinese (Traditional))
+    
+    Currently translated at 100.0% (150 of 150 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_TW/
+    
+    Translated using Weblate (Chinese (Simplified))
+    
+    Currently translated at 98.6% (150 of 152 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+    
+    Translated using Weblate (Chinese (Simplified))
+    
+    Currently translated at 98.0% (149 of 152 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+
+M	po/zh_CN.po
+M	po/zh_TW.po
+
+commit 9caeca5e27c291e4fb2ef76ebeead67c4d413714
+Author: Yuri Chornoivan <yurchor@ukr.net>
+Date:   2020-09-16 04:58:09 +0200
+
+    Translated using Weblate (Ukrainian)
+    
+    Currently translated at 100.0% (150 of 150 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/uk/
+
+M	po/uk.po
+
+commit 5c43657b8c950a1dc659e7ca2069be47ada6324d
+Author: Xiao Weixuan <veyx.shaw@gmail.com>
+Date:   2020-09-16 04:58:08 +0200
+
+    Translated using Weblate (French)
+    
+    Currently translated at 91.3% (137 of 150 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/fr/
+
+M	po/fr.po
+
+commit a5d4234bea35b16393aef3cdd4aef02bfa9365e4
+Author: Emilio Herrera <ehespinosa57@gmail.com>
+Date:   2020-09-16 04:58:08 +0200
+
+    Translated using Weblate (Spanish)
+    
+    Currently translated at 100.0% (136 of 136 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/es/
+
+M	po/es.po
+
+commit 4ec2c1c8453b885922991af407c4f1f44952e0d4
+Author: Harry Chen <harrychen0314@gmail.com>
+Date:   2020-09-16 04:58:08 +0200
+
+    Translated using Weblate (Chinese (Simplified))
+    
+    Currently translated at 98.0% (149 of 152 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+
+M	po/zh_CN.po
+
+commit c4e77276f74c6051a97b1639d390678ce1bbd7f0
+Author: hillwoodroc <hillwoodroc@gmail.com>
+Date:   2020-09-10 12:03:46 +0800
+
+    Update network.txt
+
+M	data/network.txt
+
+commit 63274edc8271d60e0b50ab01cffae7ffeba8edac
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-14 11:27:54 +0800
+
+    Update gschema XML
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+commit b6a2247e92b7ccf503d1d691976b7777dbb47620
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-13 12:36:42 +0800
+
+    Update ibus-libpinyin.pot
+
+M	po/ibus-libpinyin.pot
+
+commit 330653ec32c1fd74770f1e1f52cf5bc0f08bbe78
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-13 12:34:25 +0800
+
+    Update setup dialog
+
+M	setup/ibus-libpinyin-preferences.ui
+
+commit 0b5b3a6538656a908666fef09e83cb9b34fbcf48
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-08 14:19:18 +0800
+
+    Update ibus-libpinyin.pot
+
+M	po/ibus-libpinyin.pot
+
+commit 9227873475e7ce0573d48fc8fe4b00781cc6edc0
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-08 14:13:47 +0800
+
+    Hide cloud option in setup dialog
+
+M	configure.ac
+M	setup/config.py.in
+M	setup/main2.py
+
+commit a478d650ff5429e338268c6d5f6e4c44e8334426
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-07 16:07:09 +0800
+
+    Update main2.py for emoji candidate
+
+M	setup/main2.py
+
+commit d9b4fd856e57a3785c91e360805603130d5fbc34
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-07 16:06:12 +0800
+
+    Update setup dialog for emoji candidate
+
+M	setup/ibus-libpinyin-preferences.ui
+
+commit 17068e1da358b7a6ca78375a01bd572956433755
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-09-07 14:54:08 +0800
+
+    Fixes Emoji Candidates
+
+M	src/PYPEmojiCandidates.cc
+
+commit 38ace884661e521990fc117ffa5a197173853527
+Author: hillwoodroc <hillwoodroc@gmail.com>
+Date:   2020-09-07 12:34:34 +0800
+
+    Update ibus-libpinyin-preferences.ui: Add Cloud Input Authors
+
+M	setup/ibus-libpinyin-preferences.ui
+
+commit d6c950ec717fb417fc2871e03801349e3b065a76
+Author: Inokinoki <veyx.shaw@gmail.com>
+Date:   2020-09-01 10:26:12 +0200
+
+    Enable Cloud Input for Double Pinyin and Bopomofo
+
+M	src/PYPBopomofoEditor.cc
+M	src/PYPDoublePinyinEditor.cc
+
+commit 04aa7f052d2d911349c79cae6d922e3f65d24752
+Author: Inokinoki <veyx.shaw@gmail.com>
+Date:   2020-09-01 10:25:14 +0200
+
+    Enable Cloud Input for Full Pinyin mode
+    
+    Co-authored-by: lianna07 <liannaxu07@gmail.com>
+
+M	configure.ac
+M	src/Makefile.am
+M	src/PYPPhoneticEditor.cc
+M	src/PYPPhoneticEditor.h
+
+commit 3de68dd731aeae11e1930a1f25ecdad3b2cc50d8
+Author: Inokinoki <veyx.shaw@gmail.com>
+Date:   2020-09-01 10:22:36 +0200
+
+    Add Cloud Input configuration items in setup UI
+    
+    Co-authored-by: lianna07 <liannaxu07@gmail.com>
+    Co-authored-by: Peng Wu <alexepico@gmail.com>
+
+M	setup/ibus-libpinyin-preferences.ui
+M	setup/main2.py
+
+commit ad748051706038cf4178be3f0cdbdd209fa02742
+Author: Inokinoki <veyx.shaw@gmail.com>
+Date:   2020-09-01 10:18:19 +0200
+
+    Add Cloud Input configurations
+    
+    Co-authored-by: lianna07 <liannaxu07@gmail.com>
+    Co-authored-by: Peng Wu <alexepico@gmail.com>
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+M	src/PYConfig.cc
+M	src/PYConfig.h
+M	src/PYPConfig.cc
+
+commit beae287d141c111ac18ccfd5ddf7afa1f23a8945
+Author: Inokinoki <veyx.shaw@gmail.com>
+Date:   2020-09-01 10:09:31 +0200
+
+    Add Cloud Input implementation
+    
+    This implementation adds Cloud Input feature with delayed request and
+    asynchronous request.
+    
+    - Support Full Pinyin and Double Pinyin modes
+    - Support Bopomofo mode
+    
+    Co-authored-by: lianna07 <liannaxu07@gmail.com>
+    Co-authored-by: Peng Wu <alexepico@gmail.com>
+
+A	src/PYPCloudCandidates.cc
+A	src/PYPCloudCandidates.h
+
+commit afd6134ebdd7d01383f79763e574fab0a227307d
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-08-28 11:31:54 +0800
+
+    bump version 1.11.94
+
+M	configure.ac
+
+commit 2ee257c73388df89b4f5966c882d8047a896f9b2
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-08-28 11:30:31 +0800
+
+    restore mainSwitch shortcut key
+
+M	src/PYPPinyinEngine.cc
+
 commit 24f673d6480ce15fc7f37af848f149e0a366d18a
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2020-08-25 15:32:24 +0800
