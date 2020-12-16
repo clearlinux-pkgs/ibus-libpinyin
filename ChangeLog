@@ -1,3 +1,54 @@
+commit 31f12260abd9f384105d76f2f184584307f06c8e
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-12-15 14:56:40 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit 8fb0ca4fa7bf9db3e5fb6c2fb713a3b0d4ab1ae4
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-12-15 14:54:47 +0800
+
+    bump version 1.12.0
+
+M	configure.ac
+
+commit 9b00002f464bc66c55bcfeaf2ab0e1ca5e2a4f1e
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2020-11-23 10:58:22 +0800
+
+    Fixes import/export pinyin dictionary
+
+M	setup/main2.py
+M	src/PYPConfig.cc
+
+commit a7a048ecf430664711c26f7fedca4470adb0fcc0
+Author: Adolfo Jayme Barrientos <fitoschido@gmail.com>
+Date:   2020-10-16 20:30:19 +0200
+
+    Translated using Weblate (Spanish)
+    
+    Currently translated at 98.7% (154 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/es/
+
+M	po/es.po
+
+commit d2167a3dcdfd11d78149ace92ab745d0c345f10f
+Author: Emilio Herrera <ehespinosa57@gmail.com>
+Date:   2020-10-16 20:30:19 +0200
+
+    Translated using Weblate (Spanish)
+    
+    Currently translated at 83.9% (131 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/es/
+
+M	po/es.po
+
 commit 3206261d58711d7c42baca5ba680758a708f4bf9
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2020-10-22 11:09:14 +0800
