@@ -4,7 +4,7 @@
 #
 Name     : ibus-libpinyin
 Version  : 1.12.0
-Release  : 11
+Release  : 12
 URL      : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.12.0.tar.gz
 Source0  : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.12.0.tar.gz
 Summary  : No detailed summary available
@@ -15,14 +15,12 @@ Requires: ibus-libpinyin-libexec = %{version}-%{release}
 Requires: ibus-libpinyin-license = %{version}-%{release}
 Requires: ibus-libpinyin-locales = %{version}-%{release}
 BuildRequires : gettext
-BuildRequires : lua-dev
 BuildRequires : perl(XML::Parser)
 BuildRequires : pkgconfig(gio-2.0)
 BuildRequires : pkgconfig(ibus-1.0)
 BuildRequires : pkgconfig(json-glib-1.0)
 BuildRequires : pkgconfig(libpinyin)
 BuildRequires : pkgconfig(libsoup-2.4)
-BuildRequires : pkgconfig(lua)
 BuildRequires : pkgconfig(sqlite3)
 BuildRequires : sed
 
@@ -74,7 +72,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1608134580
+export SOURCE_DATE_EPOCH=1615418449
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -87,7 +85,7 @@ export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1608134580
+export SOURCE_DATE_EPOCH=1615418449
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/ibus-libpinyin
 cp %{_builddir}/ibus-libpinyin-1.12.0/COPYING %{buildroot}/usr/share/package-licenses/ibus-libpinyin/8624bcdae55baeef00cd11d5dfcfa60f68710a02
