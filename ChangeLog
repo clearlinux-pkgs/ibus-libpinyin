@@ -1,3 +1,201 @@
+commit 6a5f55445e630c3ee78cb451d00c64e86f59c9e1
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2021-06-28 12:59:42 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit be28b3a410251d9d78265da7723c8372dc5c8594
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2021-05-17 15:15:26 +0800
+
+    Remember cloud input
+
+M	src/PYLibPinyin.cc
+M	src/PYLibPinyin.h
+M	src/PYPCloudCandidates.cc
+M	src/PYPLibPinyinCandidates.cc
+
+commit be97321b6dd700796f97697428a14a26b234eadd
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2021-05-11 09:58:22 +0800
+
+    Improve cloud candidate
+
+M	src/PYPCloudCandidates.cc
+M	src/PYPCloudCandidates.h
+
+commit 4bd9e2247ce9df235daffc14b570c7bc7ea41368
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2021-05-06 11:04:23 +0800
+
+    Update LINGUAS
+
+M	po/LINGUAS
+
+commit f69aff4e59af855a6c1631af65f3216f9b50be54
+Author: Gunnar Hjalmarsson <gunnarhj@users.noreply.github.com>
+Date:   2021-04-30 12:42:12 +0200
+
+    Rename pt-BR.po to pt_BR.po
+
+R100	po/pt-BR.po	po/pt_BR.po
+
+commit 0818f2034c128258069c6812969a3ef194ed71c0
+Author: Hela Basa <r45xveza@pm.me>
+Date:   2021-03-03 21:58:12 +0100
+
+    Added translation using Weblate (Sinhala)
+
+M	po/LINGUAS
+A	po/si.po
+
+commit 3c9a1c782bdec4f057cf1ed6dd8ee16cd707e9b0
+Author: Dingzhong Chen <wsxy162@gmail.com>
+Date:   2021-03-03 21:58:12 +0100
+
+    Translated using Weblate (Chinese (Simplified) (zh_CN))
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+    
+    Translated using Weblate (Chinese (Simplified) (zh_CN))
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+    
+    Translated using Weblate (Chinese (Simplified) (zh_CN))
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+    
+    Translated using Weblate (Chinese (Simplified) (zh_CN))
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+
+M	po/zh_CN.po
+
+commit 8f7899bf11b3c06eada4aa94ed0fd4817dc9f680
+Author: Weblate <noreply@weblate.org>
+Date:   2021-03-03 21:58:12 +0100
+
+    Update translation files
+    
+    Updated by "Update PO files to match POT (msgmerge)" hook in Weblate.
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/
+
+M	po/de.po
+M	po/es.po
+M	po/fr.po
+M	po/uk.po
+
+commit 1edb80cb35594c97a098c56648c48a3afe11f158
+Author: Julien Humbert <julroy67@gmail.com>
+Date:   2021-03-03 21:58:11 +0100
+
+    Translated using Weblate (French)
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/fr/
+    
+    Translated using Weblate (French)
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/fr/
+
+M	po/fr.po
+
+commit 48522d4d46949516256641913f1c68217e573450
+Author: Hollow Man <hollowman@hollowman.ml>
+Date:   2021-03-21 15:56:03 +0800
+
+    Change deprecated glib function g_atexit() into atexit()
+    
+    Signed-off-by: Hollow Man <hollowman@hollowman.ml>
+
+M	src/PYMain.cc
+
+commit 330ba5b289eec7670aa82244ed9064d8bc6d537b
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2021-01-28 11:59:17 +0800
+
+    Support Compatibility display style
+
+M	src/PYConfig.h
+M	src/PYPBopomofoEditor.cc
+M	src/PYPConfig.cc
+M	src/PYPDoublePinyinEditor.cc
+M	src/PYPFullPinyinEditor.cc
+M	src/PYPPinyinEditor.cc
+
+commit 39c7da6eb672d89ea240e336bdea1546eaf85f46
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2021-01-28 10:52:52 +0800
+
+    Update ibus-libpinyin-preferences.ui
+
+M	setup/ibus-libpinyin-preferences.ui
+
+commit 4c095052b2242975342fed034e39ed1b5c0caaef
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2021-01-28 10:46:05 +0800
+
+    bump version 1.12.1
+
+M	configure.ac
+
+commit 9f86e50121d85c8dc40b23a3ff7af4bbe01bdc9f
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2021-01-28 10:44:58 +0800
+
+    Extend lua trigger feature to support multiple results
+
+M	src/PYPLuaConverterCandidates.cc
+M	src/PYPLuaTriggerCandidates.cc
+M	src/PYPLuaTriggerCandidates.h
+
+commit b8d700607ea7a6d27cc9c7ab9d4f9901bd40997c
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2021-01-27 15:29:36 +0800
+
+    Update Lua Plugin API
+
+M	lua/lua-ext-console.c
+M	lua/lua-plugin.c
+M	lua/lua-plugin.h
+
+commit dcf8e13c6921e4d8a39ec9bf33263fd37616560c
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2021-01-20 09:42:14 +0800
+
+    Fixes insert method
+
+M	src/PYPFullPinyinEditor.cc
+
+commit 840217748fea4de8f6a68378fd0465fe7aa810d7
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2021-01-11 13:30:22 +0800
+
+    Fixes Caps Lock issue in double pinyin mode
+
+M	src/PYPPinyinEngine.cc
+
 commit 31f12260abd9f384105d76f2f184584307f06c8e
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2020-12-15 14:56:40 +0800
