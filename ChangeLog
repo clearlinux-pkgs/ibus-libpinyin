@@ -1,3 +1,769 @@
+commit 37860481044afd21821988240878642bdec6d796
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   2022-04-13 09:16:59 +0200
+
+    Translated using Weblate (German)
+    
+    Currently translated at 100.0% (167 of 167 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/de/
+
+M	po/de.po
+
+commit 34efdfb37685d7ea2f2f9a9221046890bc06c2dd
+Author: Yuri Chornoivan <yurchor@ukr.net>
+Date:   2022-04-13 09:16:58 +0200
+
+    Translated using Weblate (Ukrainian)
+    
+    Currently translated at 100.0% (167 of 167 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/uk/
+
+M	po/uk.po
+
+commit dc771372714c4139812a9c9d16e90346ea4521d8
+Author: Peng Wu <pwu@redhat.com>
+Date:   2022-04-13 09:16:58 +0200
+
+    Translated using Weblate (Chinese (Simplified) (zh_CN))
+    
+    Currently translated at 100.0% (167 of 167 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+
+M	po/zh_CN.po
+
+commit 5e4814bb606baab72189bfb74f7c38c1a6133c3a
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-04-12 15:08:38 +0800
+
+    Update po files
+
+M	po/ca.po
+M	po/cs.po
+M	po/de.po
+M	po/es.po
+M	po/fr.po
+M	po/pt_BR.po
+M	po/ru.po
+M	po/si.po
+M	po/uk.po
+M	po/zh_CN.po
+M	po/zh_HK.po
+M	po/zh_TW.po
+
+commit 5d2e7c439dc13120f4409227e844c0e052fd29b1
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-04-12 15:07:34 +0800
+
+    Update ibus-libpinyin.pot
+
+M	po/ibus-libpinyin.pot
+
+commit 695aeb7c3b40320d54eba3df9495f18dc43ad5b1
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   2022-04-05 09:17:07 +0200
+
+    Translated using Weblate (German)
+    
+    Currently translated at 100.0% (166 of 166 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/de/
+
+M	po/de.po
+
+commit 8d33534f3139c08f44ecc049472494f12b2d4add
+Author: Yuri Chornoivan <yurchor@ukr.net>
+Date:   2022-04-05 09:17:07 +0200
+
+    Translated using Weblate (Ukrainian)
+    
+    Currently translated at 100.0% (166 of 166 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/uk/
+
+M	po/uk.po
+
+commit 1feb1044284743396646cdd651d6058bbb447a5c
+Author: Peng Wu <pwu@redhat.com>
+Date:   2022-04-05 09:17:07 +0200
+
+    Translated using Weblate (Chinese (Simplified) (zh_CN))
+    
+    Currently translated at 100.0% (166 of 166 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+
+M	po/zh_CN.po
+
+commit 9740c48016cdb6dc9ee62ea85b40629c0c5c0784
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-04-12 13:48:15 +0800
+
+    Update main2.py
+
+M	setup/main2.py
+
+commit f4d3dae36707036c2e8fad7ec69f58836d0943b0
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-04-12 13:37:10 +0800
+
+    Update ibus-libpinyin-preferences.ui
+
+M	setup/ibus-libpinyin-preferences.ui
+
+commit a029555de877591a4e6502c01d4a338fe9c79591
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-04-12 12:15:03 +0800
+
+    Add double-pinyin-show-raw option
+
+M	src/PYConfig.cc
+M	src/PYConfig.h
+M	src/PYPConfig.cc
+M	src/PYPDoublePinyinEditor.cc
+
+commit 337c1494d01365fca7d35bd67cb471bdcb9f8bbd
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-04-12 11:34:19 +0800
+
+    Update com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+commit 03381c95d8c4a4958e1f0d7a3760a0ee71e8be55
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-04-11 15:37:08 +0800
+
+    Update main2.py
+
+M	setup/main2.py
+
+commit 3501b7d64c79a08746dc81fe2dfe0605414cd332
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-04-11 15:34:46 +0800
+
+    Update ibus-libpinyin-preferences.ui
+
+M	setup/ibus-libpinyin-preferences.ui
+
+commit eb8a420dbe6f5589d89ea8c50d218a625a3de406
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-04-11 15:30:38 +0800
+
+    Rename show-suggestion option to suggestion-candidate option
+
+M	src/PYConfig.cc
+M	src/PYConfig.h
+M	src/PYPBopomofoEngine.cc
+M	src/PYPConfig.cc
+M	src/PYPPinyinEngine.cc
+
+commit 701dbb101164f608b86354960a5e4d258eed390b
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-04-11 15:17:54 +0800
+
+    Update com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+commit bfe728057bbb84fd36b4f3867aebb8f4a16f51e2
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-04-11 15:14:53 +0800
+
+    Update main2.py
+
+M	setup/main2.py
+
+commit 01e300d239182e21fc6ad3ac60057dd08b2312ba
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-04-11 15:06:08 +0800
+
+    Update ibus-libpinyin-preferences.ui
+
+M	setup/ibus-libpinyin-preferences.ui
+
+commit 8de48eef341d2894b4d5ea6ee8a8fe8eaf53520f
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-04-11 14:29:44 +0800
+
+    Add English candidates option
+
+M	src/PYConfig.cc
+M	src/PYConfig.h
+M	src/PYPConfig.cc
+M	src/PYPPhoneticEditor.cc
+
+commit 276c943916535faff124e43503edc3d05c83cdd7
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-04-11 14:13:54 +0800
+
+    Update com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+commit 91c39c3e8feebba7562712e0a01d8f4737629124
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-04-06 11:16:49 +0800
+
+    Fix English candidates
+
+M	src/PYPPhoneticEditor.cc
+
+commit dd11c57797e13e215559f5cfc2200f244df118e4
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-31 15:05:06 +0800
+
+    Update po files
+
+M	po/ca.po
+M	po/cs.po
+M	po/de.po
+M	po/es.po
+M	po/fr.po
+M	po/pt_BR.po
+M	po/ru.po
+M	po/si.po
+M	po/uk.po
+M	po/zh_CN.po
+M	po/zh_HK.po
+M	po/zh_TW.po
+
+commit 33777e24db13e59f068a61a505b8594a9d735237
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-31 15:04:37 +0800
+
+    Update ibus-libpinyin.pot
+
+M	po/ibus-libpinyin.pot
+
+commit d1a41ff904c129a2ac53c8d84e6876b59a7c7b12
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-31 15:03:57 +0800
+
+    Update ibus-libpinyin-preferences.ui
+
+M	setup/ibus-libpinyin-preferences.ui
+
+commit 04ba8f07a4dd7e7d2176737f5f17db240ff58159
+Author: Yuri Chornoivan <yurchor@ukr.net>
+Date:   2022-03-31 08:55:43 +0200
+
+    Translated using Weblate (Ukrainian)
+    
+    Currently translated at 100.0% (166 of 166 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/uk/
+
+M	po/uk.po
+
+commit 8b05a153b1720e6717838c10b4c63bbf115be36d
+Author: Peng Wu <pwu@redhat.com>
+Date:   2022-03-31 07:29:27 +0200
+
+    Translated using Weblate (Chinese (Simplified) (zh_CN))
+    
+    Currently translated at 100.0% (166 of 166 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+    
+    Translated using Weblate (Chinese (Simplified) (zh_CN))
+    
+    Currently translated at 100.0% (166 of 166 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+
+M	po/zh_CN.po
+
+commit d8bd7e0fc6238fd3583349698a175f1197a497d9
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-31 12:26:49 +0800
+
+    Update po files
+
+M	po/ca.po
+M	po/cs.po
+M	po/de.po
+M	po/es.po
+M	po/fr.po
+M	po/pt_BR.po
+M	po/ru.po
+M	po/si.po
+M	po/uk.po
+M	po/zh_CN.po
+M	po/zh_HK.po
+M	po/zh_TW.po
+
+commit edc953860a0d8375d0b66d5fcce02177099f5835
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-31 12:25:06 +0800
+
+    Update ibus-libpinyin-preferences.ui
+
+M	setup/ibus-libpinyin-preferences.ui
+
+commit 8d1ba9cf49d56fe3f8a768b62f341d4d07d3d076
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-31 12:06:21 +0800
+
+    Update ibus-libpinyin.pot
+
+M	po/ibus-libpinyin.pot
+
+commit 0c27bb16a9c1e76301e3fd0e0f854e26e1a83a2f
+Author: Dingzhong Chen <wsxy162@gmail.com>
+Date:   2021-09-17 09:05:01 +0200
+
+    Translated using Weblate (Chinese (Simplified) (zh_CN))
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+
+M	po/zh_CN.po
+
+commit bbb962fc95271b563089b8e6c1ef576f47bd116d
+Author: Hela Basa <r45xveza@pm.me>
+Date:   2021-09-17 09:05:01 +0200
+
+    Translated using Weblate (Sinhala)
+    
+    Currently translated at 1.2% (2 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/si/
+
+M	po/si.po
+
+commit 7f6cb240f22caae3920fb5a7d6f0a45d0c1d9220
+Author: Liu Tao <lyuutau@outlook.com>
+Date:   2021-09-17 09:05:01 +0200
+
+    Translated using Weblate (Chinese (Simplified) (zh_CN))
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/zh_CN/
+
+M	po/zh_CN.po
+
+commit 541439836d9f1e4dc1ac852a741f2d5b678318e1
+Author: Emilio Herrera <ehespinosa57@gmail.com>
+Date:   2021-09-17 09:05:01 +0200
+
+    Translated using Weblate (Spanish)
+    
+    Currently translated at 100.0% (156 of 156 strings)
+    
+    Translation: ibus-libpinyin/master
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/master/es/
+
+M	po/es.po
+
+commit 4491df69487217c7d7706cb50cc08ef796e4e549
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-29 11:06:27 +0800
+
+    Fix commit issue in class EnglishCandidates
+
+M	src/PYPEnglishCandidates.cc
+M	src/PYPEnhancedCandidates.h
+M	src/PYPPhoneticEditor.cc
+M	src/PYPPhoneticEditor.h
+
+commit 65b0919d45ea36b51f89881341f05fadaf60a846
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-29 10:53:48 +0800
+
+    Fix some crash
+
+M	src/PYPEnglishCandidates.cc
+M	src/PYPPinyinEngine.cc
+
+commit c851bb9c8ebe013406e8933a13b74ccd2a33fff5
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-25 09:59:50 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit 17e869890137201dcfb2db2bd0d4d6c3d8875387
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-25 09:19:24 +0800
+
+    Fix typos
+
+M	setup/main2.py
+
+commit 0de2c0906b401cb2be72df978fece68f8f703b0d
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-25 08:56:37 +0800
+
+    bump version 1.12.91
+
+M	configure.ac
+
+commit 19d845b68726822781dca7d2ab0c09fdeb8d34af
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-25 08:54:57 +0800
+
+    Update PinyinEngine::processKeyEvent method
+
+M	src/PYPPinyinEngine.cc
+M	src/PYTableEditor.h
+
+commit 1c3d9630c2c336b3e88221fa599161c1461f2e7e
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-24 11:53:04 +0800
+
+    Update ibus-libpinyin-preferences.ui
+
+M	setup/ibus-libpinyin-preferences.ui
+
+commit 91cf009f7c1437d5584e9b0a4b76bad6c172481a
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-23 15:10:26 +0800
+
+    Update setup/main2.py
+
+M	setup/main2.py
+
+commit 4052925c79413ee5ef13ed199738bdfd7f25e291
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-22 15:55:09 +0800
+
+    Update ibus-libpinyin-preferences.ui
+
+M	setup/ibus-libpinyin-preferences.ui
+
+commit aab3d506c83a9eed4c9c795181576946317a83d2
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-21 15:34:51 +0800
+
+    Update PinyinConfig::valueChanged method
+
+M	src/PYPConfig.cc
+M	src/PYTableDatabase.cc
+
+commit 2b07bef9cf7cb35ca81a15fa347edc6de6d6d122
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-18 14:46:43 +0800
+
+    Write class TableDatabase
+
+M	src/PYTableDatabase.cc
+M	src/PYTableEditor.cc
+
+commit c18c197c67e694e52424c37d8f1da04f29728511
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-16 14:57:00 +0800
+
+    Write TableDatabase::init method
+
+M	src/PYEnglishDatabase.cc
+M	src/PYEnglishEditor.cc
+M	src/PYMain.cc
+M	src/PYTableDatabase.cc
+M	src/PYTableEditor.cc
+M	src/PYTableEditor.h
+
+commit 55a3c4fc4a34a53b330f3882c4fcb2731ef8fa8f
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-15 11:21:31 +0800
+
+    Update src/Makefile.am
+
+M	src/Makefile.am
+
+commit ebd1a9f0c14998ab74440ed45140d95562de8e80
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-15 11:05:51 +0800
+
+    Write class TableDatabase
+
+A	src/PYTableDatabase.cc
+A	src/PYTableDatabase.h
+M	src/PYTableEditor.cc
+M	src/PYTableEditor.h
+
+commit 221b22d45c2e7d51ebe01b2531de273b7ad67d0f
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-14 15:28:22 +0800
+
+    Update TableDatabase in progress
+
+M	src/PYTableEditor.cc
+
+commit f98f9f346e0858d088777ed09d0a4b841c46e23a
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-14 15:27:41 +0800
+
+    Update table.awk
+
+M	data/table.awk
+
+commit e859c29ae07bda7d3736e6ff105eea907e0409b0
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-10 14:48:52 +0800
+
+    Write class TableEditor in progress
+
+M	src/PYTableEditor.cc
+M	src/PYTableEditor.h
+
+commit 9d9c55e6b188de74c907d1f80ad265119b874821
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-03-10 14:48:03 +0800
+
+    Update table.awk
+
+M	data/table.awk
+
+commit 2795cecf4574a2c2932151ac748df3f0ff88d8c5
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-02-23 14:36:17 +0800
+
+    Update class TableDatabase
+
+M	src/PYTableEditor.cc
+M	src/PYTableEditor.h
+
+commit 8462e8e3d0c19304dce26748f56aa43c5b9681ce
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-02-21 13:03:58 +0800
+
+    Add use-custom-table options
+
+M	src/PYConfig.cc
+M	src/PYConfig.h
+M	src/PYPConfig.cc
+
+commit dcf2720ea28ecb1cbf97bb6e69dcc0968cf9820e
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-02-21 11:11:47 +0800
+
+    Fix warnings
+
+M	src/PYPPhoneticEditor.h
+
+commit 4d51bb42be0e032dca2eb74b25472516f36bd389
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-02-21 11:06:36 +0800
+
+    Update com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+commit d0d81da03e37386e7d7cc0ffd531819211171a8f
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-02-18 09:18:08 +0800
+
+    Rename strokes table to phrases table
+
+M	data/table.awk
+M	src/PYTableEditor.cc
+
+commit 4547f1ac36a94efbdef2433b74c81ff108c694a2
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-02-16 11:55:12 +0800
+
+    Rename stroke to table
+
+M	configure.ac
+M	data/Makefile.am
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+R100	data/strokes.awk	data/table.awk
+M	po/POTFILES.in
+M	src/Makefile.am
+M	src/PYConfig.cc
+M	src/PYConfig.h
+M	src/PYPBopomofoEngine.h
+M	src/PYPConfig.cc
+M	src/PYPPinyinEngine.cc
+M	src/PYPPinyinEngine.h
+
+commit bc55364c88d09b49a1fd0590d17734f3efa204db
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-02-16 09:59:07 +0800
+
+    Rename StrokeEditor to TableEditor
+
+M	src/PYTableEditor.cc
+M	src/PYTableEditor.h
+
+commit 07a27a2b11c0d931eb288734d8f561dc559b8e9f
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-02-15 17:01:39 +0800
+
+    Rename files
+
+R100	src/PYStrokeEditor.cc	src/PYTableEditor.cc
+R100	src/PYStrokeEditor.h	src/PYTableEditor.h
+
+commit d9ec5ae7aa0dc69c437aaaa0d686d5a2faaec826
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-02-15 10:44:23 +0800
+
+    Enable English mode for Full Pinyin
+
+M	src/PYEnglishDatabase.cc
+M	src/PYPPinyinEngine.cc
+
+commit 6cd62db2c298597a8ed77a0f21994839880ed320
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-02-14 15:58:24 +0800
+
+    Update wordlist
+
+M	data/wordlist
+
+commit 70d961f29943ed09590a5a7a06f349b36e87ce96
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-02-14 10:31:24 +0800
+
+    Write m_english_candidates
+
+M	src/PYPEnglishCandidates.cc
+M	src/PYPPhoneticEditor.cc
+M	src/PYPPhoneticEditor.h
+
+commit 7268c80fb9025e791f01894a73836d7238e0221e
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-02-14 09:40:12 +0800
+
+    Fix compile
+
+M	src/Makefile.am
+M	src/PYEditor.h
+M	src/PYPEnglishCandidates.cc
+M	src/PYPEnglishCandidates.h
+
+commit d9a1080415671082f4c575885c7b5b9ae031e9ea
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-02-11 13:04:13 +0800
+
+    Write class EnglishCandidates
+
+A	src/PYPEnglishCandidates.cc
+M	src/PYPEnglishCandidates.h
+
+commit 56e94842886333d88d41fa02a1cfac83782330fb
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-01-29 10:25:32 +0800
+
+    Write class EnglishDatabase
+
+M	src/PYEnglishDatabase.cc
+M	src/PYEnglishDatabase.h
+M	src/PYEnglishEditor.cc
+M	src/PYEnglishEditor.h
+
+commit fc9b42ddbfbb75740d5d959e2e34eed3609a73dd
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-01-19 14:05:40 +0800
+
+    Write PYPEnglishCandidates.h
+
+A	src/PYPEnglishCandidates.h
+M	src/PYPEnhancedCandidates.h
+
+commit bf64c60c2212a504a76c6f4777839547d99ed878
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-01-18 10:56:05 +0800
+
+    Fix compile
+
+M	src/Makefile.am
+M	src/PYEnglishDatabase.cc
+M	src/PYEnglishDatabase.h
+M	src/PYEnglishEditor.cc
+M	src/PYEnglishEditor.h
+M	src/PYMain.cc
+
+commit 787875a45559952ff65aa8ea608659aedf41f138
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-01-14 10:55:58 +0800
+
+    Write PYEnglishDatabase.cc
+
+A	src/PYEnglishDatabase.cc
+M	src/PYEnglishDatabase.h
+M	src/PYEnglishEditor.cc
+
+commit 24f0a6add6e92ba1ebf4e480250c0f0ffc2f427c
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-01-14 10:31:43 +0800
+
+    Write PYEnglishDatabase.h
+
+A	src/PYEnglishDatabase.h
+
+commit fd750ba2d288227bf7aef00d7126a4d1acb5ed7b
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-01-11 14:34:10 +0800
+
+    Change default value for comma-period-page option
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+M	src/PYConfig.cc
+M	src/PYPConfig.cc
+
+commit 09b8f11aea70284a65d35b2709e1867e0637e0ec
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2021-12-13 11:43:03 +0800
+
+    Create make-check.yml
+
+A	.github/workflows/make-check.yml
+
+commit dd9b85f7b4ad4dd065620ae2917bc7af0b71c7dd
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2021-12-01 14:12:39 +0800
+
+    Update PinyinConfig
+
+M	src/PYConfig.cc
+M	src/PYConfig.h
+M	src/PYPConfig.cc
+M	src/PYPPinyinEngine.cc
+
+commit beebf2fce913581a127d0ce6aff0848967c2a364
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2021-12-01 14:00:23 +0800
+
+    Update ibus-libpinyin.gschema.xml
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+commit 2c006b596068271f2b8b890af1400f518c66d547
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2021-12-01 13:42:58 +0800
+
+    bump version 1.12.2
+
+M	configure.ac
+
+commit 36d86b09414f51ad7303f598930e454404eada09
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2021-11-01 14:37:16 +0800
+
+    Fix processFunctionKey method
+
+M	src/PYPPhoneticEditor.cc
+
 commit 6a5f55445e630c3ee78cb451d00c64e86f59c9e1
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2021-06-28 12:59:42 +0800
