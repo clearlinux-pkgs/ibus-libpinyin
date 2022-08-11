@@ -1,3 +1,161 @@
+commit 442967878e8b791c8fe12908f6a9e1dc6ed16c82
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-08-11 09:46:43 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit 345a778f867a3421a6d7b2581758e2e23d0748d5
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-08-10 14:27:15 +0800
+
+    bump version 1.12.92
+
+M	configure.ac
+
+commit fa548f562a97a4662c5910bb98b75eb3e3334e2e
+Author: Zhangyuan Nie <yuan@znie.org>
+Date:   2022-08-05 03:27:32 -0400
+
+    migrate create_valid_hanzi.py to python 3
+
+M	data/db/android/README
+M	data/db/android/create_valid_hanzi.py
+M	data/db/android/valid_hanzi.py
+
+commit 92f3d9e0e99098cbf8c1923eed29ec6d203fb38b
+Author: Zhangyuan Nie <yuan@znie.org>
+Date:   2022-08-05 02:57:35 -0400
+
+    fix gitignore
+
+M	.gitignore
+A	scripts/.gitignore
+M	setup/.gitignore
+M	src/.gitignore
+
+commit 86316ab613e23e11334a20136985265ccd4d26d1
+Author: Zhangyuan Nie <yuan@znie.org>
+Date:   2022-08-05 02:53:25 -0400
+
+    move make targets for ZhConversion to scripts dir
+
+M	Makefile.am
+M	configure.ac
+A	scripts/Makefile.am
+M	scripts/update-simptrad-table.py
+M	src/Makefile.am
+
+commit 44d0d909e023429c2c1367539038fe5fb6beffed
+Author: Zhangyuan Nie <yuan@znie.org>
+Date:   2022-08-05 01:44:47 -0400
+
+    update PYSimpTradConverterTable.h
+
+M	src/PYSimpTradConverterTable.h
+
+commit 353530b6502d4027d7af8e4b43f1869e1ec51159
+Author: Zhangyuan Nie <yuan@znie.org>
+Date:   2022-08-05 01:43:33 -0400
+
+    fix update-simptrad-table.py compatibility
+
+M	scripts/update-simptrad-table.py
+
+commit 3fe89d77bff39c23c9ad72843fc71035faf7d0c7
+Author: Zhangyuan Nie <yuan@znie.org>
+Date:   2022-08-05 01:23:44 -0400
+
+    update ZhConversion.php url in Makefile
+
+M	src/Makefile.am
+
+commit 45a8d8f5a4b438c377a82af0a616280287eb1b1b
+Author: Zhangyuan Nie <yuan@znie.org>
+Date:   2022-08-05 01:09:02 -0400
+
+    remove gensimptradtable.py
+
+D	scripts/gensimptradtable.py
+D	scripts/sctc.py
+
+commit c544f22f1fe09d56e0e014613172ae887099ebf7
+Author: Zhangyuan Nie <yuan@znie.org>
+Date:   2022-08-05 01:00:55 -0400
+
+    migrate genpuncttable.py to python 3
+
+M	scripts/genpuncttable.py
+
+commit 698498b8da71d9ba0f770de418b9c361779857fc
+Author: Zhangyuan Nie <yuan@znie.org>
+Date:   2022-08-04 23:36:50 -0400
+
+    update python version to 3.7
+
+M	configure.ac
+M	setup/main2.py
+
+commit c1ff04dea4889988a44cd19b08b49594b3601302
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-06-23 10:01:03 +0800
+
+    Update strokes
+
+M	data/strokes
+
+commit 9c97823ace101bf1b72b848e3c3d317c1fb162be
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-06-13 09:35:29 +0800
+
+    Update strokes
+
+M	data/strokes
+
+commit 35e9bd1812f65a40a067b0271c6bb481b9c6d3c8
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-06-08 11:41:16 +0800
+
+    Fix class ExtEditor
+
+M	src/PYExtEditor.cc
+
+commit 41a395397ef19352504b0d194cd57b9fc01b8209
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-05-30 12:03:44 +0800
+
+    Use check_result macro
+
+M	src/PYLibPinyin.cc
+M	src/PYPLibPinyinCandidates.cc
+M	src/PYPunctEditor.cc
+M	src/PYUtil.h
+
+commit a8def492d1c7c1b4e25f4bd23378c57139829f43
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-05-27 11:17:32 +0800
+
+    Write check_result macro
+
+M	src/PYUtil.h
+
+commit 11a75d2429760bdc291bf82e385110f418b14610
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-05-19 09:46:31 +0800
+
+    Fixes class PunctEditor
+
+M	src/PYPunctEditor.cc
+
+commit 109de24d222478edaae4cadcdf31e0aec89b44ee
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-05-06 16:38:48 +0800
+
+    Update make-check.yml
+
+M	.github/workflows/make-check.yml
+
 commit 37860481044afd21821988240878642bdec6d796
 Author: Mike FABIAN <mfabian@redhat.com>
 Date:   2022-04-13 09:16:59 +0200
