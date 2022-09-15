@@ -1,3 +1,27 @@
+commit b641bd0881edfc975f997dca5305326ac1fbf5f0
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-09-15 12:12:03 +0800
+
+    bump version 1.13.1
+
+M	configure.ac
+
+commit c1c0a2b9020ac70bf6487197251dbf210a05ed67
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-09-15 11:35:49 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit ac6681b860583fafeb8e4593aac97f93328bd882
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-09-09 16:40:10 +0800
+
+    Fix gettext usage
+
+M	setup/main2.py
+
 commit 2cc7ad11be7c60aac27ca05d297a56144714331a
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2022-08-20 10:22:26 +0800
