@@ -1,3 +1,121 @@
+commit 6f90b44df7126506c2162bce3b58b1c8ff9851c7
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-10-12 15:15:13 +0800
+
+    Update updatePreeditText method for Legacy mode
+
+M	src/PYPPinyinEditor.cc
+
+commit 0fe1edb310b9aaffbd7e02b3a57ecec89c955891
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-10-12 15:02:48 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit 3d8d297a6fc427ff5f688ca3c5df6e5ce1c344db
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-10-12 14:57:40 +0800
+
+    Update configure.ac
+
+M	configure.ac
+
+commit d7217bcfa7cf24dfda0ef5bc3c0c0fe000d2f806
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-10-09 13:32:26 +0800
+
+    Add updateAll method to class Editor
+
+M	src/PYEditor.cc
+M	src/PYEditor.h
+M	src/PYEnglishEditor.cc
+M	src/PYEnglishEditor.h
+M	src/PYExtEditor.cc
+M	src/PYExtEditor.h
+M	src/PYPPhoneticEditor.cc
+M	src/PYPPhoneticEditor.h
+M	src/PYPPinyinEngine.cc
+M	src/PYTableEditor.cc
+M	src/PYTableEditor.h
+
+commit eb6b45f7a4cd52fdbe23e0539e5119b43f7a281a
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-09-26 14:30:18 +0800
+
+    Bump version 1.14.91
+
+M	configure.ac
+
+commit 13181349a6a481bcf3898a4f41178dafe25a79f8
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-09-26 14:25:43 +0800
+
+    Support Legacy mode
+
+M	src/PYPConfig.cc
+M	src/PYPLibPinyinCandidates.cc
+M	src/PYPPhoneticEditor.cc
+
+commit d88ecd60db2942ca05d21b65158d257568556d27
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-09-26 14:24:09 +0800
+
+    Update setup dialog
+
+M	setup/ibus-libpinyin-preferences.ui
+
+commit b43c17a148e467e7177ee03f146269c7e8de6032
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-09-26 12:21:15 +0800
+
+    Improve longer candidates
+
+M	src/PYPCloudCandidates.cc
+M	src/PYPEmojiCandidates.cc
+M	src/PYPEnglishCandidates.cc
+M	src/PYPLibPinyinCandidates.cc
+M	src/PYPLuaTriggerCandidates.cc
+
+commit e856577e1d77719d6001db79f3149e1f537d0aaf
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-09-23 16:40:24 +0800
+
+    Update m_sort_option variable
+
+M	src/PYConfig.cc
+M	src/PYConfig.h
+M	src/PYPConfig.cc
+
+commit abd006be68be04509801ca5ff52d759f9d21c724
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-09-23 16:33:49 +0800
+
+    Improve Suggestion candidates
+
+M	src/PYPEnhancedCandidates.h
+M	src/PYPSuggestionCandidates.cc
+M	src/PYPSuggestionEditor.cc
+
+commit 98f7e43b3bfe69f6cbcd2e7c2479c8cac503f580
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-09-23 16:19:10 +0800
+
+    Support longer candidates
+
+M	src/PYPEnhancedCandidates.h
+M	src/PYPLibPinyinCandidates.cc
+M	src/PYPPhoneticEditor.cc
+
+commit 38e61f5b2164996244280a92d40b84ad6f54a457
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-09-23 12:55:49 +0800
+
+    Improve English candidates
+
+M	src/PYPEnglishCandidates.cc
+
 commit b641bd0881edfc975f997dca5305326ac1fbf5f0
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2022-09-15 12:12:03 +0800
