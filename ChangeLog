@@ -1,3 +1,52 @@
+commit 95abb11ee598169fcc329c8055ea31fc57a047f7
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-01-03 17:34:10 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit 485efb9522a377b9c0bfe93720c1f33e5e3f1685
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-01-03 17:32:43 +0800
+
+    Bump version 1.15.0
+
+M	configure.ac
+
+commit d948bf58ddb39da8a6988962a73ba1f6dbf238fa
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-11-24 18:23:46 +0800
+
+    Fix English symbols
+
+M	src/PYEnglishEditor.h
+M	src/PYPPinyinEngine.cc
+
+commit f7cdfd73867ad85f97eb87dced5ca32be4e99ab3
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-11-18 15:04:22 +0800
+
+    Use Fedora rawhide container image
+
+M	.github/workflows/make-check.yml
+
+commit 56ba7839c3794f7ec22c38e5c3e78bd0443efc7a
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-10-28 11:19:14 +0800
+
+    Bump version 1.14.92
+
+M	configure.ac
+
+commit ec4a563617272e2d1741069492dd3351618eaf9d
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2022-10-26 15:20:44 +0800
+
+    Fix SuggestionEditor::candidateClicked method
+
+M	src/PYPSuggestionEditor.cc
+
 commit 6f90b44df7126506c2162bce3b58b1c8ff9851c7
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2022-10-12 15:15:13 +0800
