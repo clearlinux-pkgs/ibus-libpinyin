@@ -1,3 +1,27 @@
+commit 80bab3368b692acc25957e2649568fda640c4356
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-02-21 09:07:29 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit 015b17a0ad9eebfe5532c1031148c64dccd372b1
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-02-21 09:06:49 +0800
+
+    Bump version 1.15.1
+
+M	configure.ac
+
+commit 7a7c547a312b00e8e28dde2b010e0db027637162
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-01-31 09:55:23 +0800
+
+    Fix PinyinEditor::processNumber method
+
+M	src/PYPPinyinEditor.cc
+
 commit 95abb11ee598169fcc329c8055ea31fc57a047f7
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2023-01-03 17:34:10 +0800
