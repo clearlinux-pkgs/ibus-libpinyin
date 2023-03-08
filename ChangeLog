@@ -1,3 +1,44 @@
+commit efd72e9b24632eb528b9b4cd4a0dc71364e1708e
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-03-07 14:36:08 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit e29f9a0a241f63875933fb1f266ce1bbe35fa45e
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-03-07 14:34:40 +0800
+
+    Bump version 1.15.2
+
+M	configure.ac
+
+commit 50ecf33a932a93e3432e8359bbc15ff21f89266a
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-03-06 13:57:00 +0800
+
+    Update english.awk
+
+M	data/english.awk
+
+commit 96042887815b4700c7cafa64cf88942af438ea98
+Author: Dominique Leuenberger <dimstar@opensuse.org>
+Date:   2023-02-24 13:38:56 +0100
+
+    build: fix awk scripts to work properly when used againts sqlite 3.41.0
+    
+    The SQL standard requires double-quotes around identifiers and
+    single-quotes around string literals. For example:
+    
+        "this is a legal SQL column name"
+        'this is an SQL string literal'
+    
+    With sqlite 3.41.0, this is being enforced on the CLI
+
+M	data/english.awk
+M	data/table.awk
+
 commit 80bab3368b692acc25957e2649568fda640c4356
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2023-02-21 09:07:29 +0800
