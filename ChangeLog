@@ -1,3 +1,36 @@
+commit c68cf2afda47cf8aca35178072d0770e22254e46
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-06-01 10:39:44 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit 240348e4b6bfd531e959b8f91f76b1e7acc7c70a
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-05-26 13:05:30 +0800
+
+    Fix FullPinyinEditor::insert method
+
+M	src/PYPFullPinyinEditor.cc
+
+commit 78b57203ff1788908d1ef0a55fa4c2c5ca98fd37
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-05-24 09:38:13 +0800
+
+    Bump version 1.15.3
+
+M	configure.ac
+
+commit 82e7cb0d8e00720a3abfb833327e37ee132016be
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-04-07 12:07:12 +0800
+
+    Fix English mode in Full Pinyin
+
+M	src/PYEnglishEditor.h
+M	src/PYPPinyinEngine.cc
+
 commit efd72e9b24632eb528b9b4cd4a0dc71364e1708e
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2023-03-07 14:36:08 +0800
