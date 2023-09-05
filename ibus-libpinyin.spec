@@ -4,10 +4,10 @@
 # Using build pattern: configure
 #
 Name     : ibus-libpinyin
-Version  : 1.15.3
-Release  : 26
-URL      : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.15.3.tar.gz
-Source0  : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.15.3.tar.gz
+Version  : 1.15.4
+Release  : 27
+URL      : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.15.4.tar.gz
+Source0  : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.15.4.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-3.0
@@ -22,7 +22,7 @@ BuildRequires : pkgconfig(gio-2.0)
 BuildRequires : pkgconfig(ibus-1.0)
 BuildRequires : pkgconfig(json-glib-1.0)
 BuildRequires : pkgconfig(libpinyin)
-BuildRequires : pkgconfig(libsoup-2.4)
+BuildRequires : pkgconfig(libsoup-3.0)
 BuildRequires : pkgconfig(sqlite3)
 BuildRequires : sed
 # Suppress stripping binaries
@@ -69,10 +69,10 @@ locales components for the ibus-libpinyin package.
 
 
 %prep
-%setup -q -n ibus-libpinyin-1.15.3
-cd %{_builddir}/ibus-libpinyin-1.15.3
+%setup -q -n ibus-libpinyin-1.15.4
+cd %{_builddir}/ibus-libpinyin-1.15.4
 pushd ..
-cp -a ibus-libpinyin-1.15.3 buildavx2
+cp -a ibus-libpinyin-1.15.4 buildavx2
 popd
 
 %build
@@ -80,7 +80,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1685631776
+export SOURCE_DATE_EPOCH=1693926538
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -103,7 +103,7 @@ export LDFLAGS="$LDFLAGS -m64 -march=x86-64-v3"
 make  %{?_smp_mflags}
 popd
 %install
-export SOURCE_DATE_EPOCH=1685631776
+export SOURCE_DATE_EPOCH=1693926538
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/ibus-libpinyin
 cp %{_builddir}/ibus-libpinyin-%{version}/COPYING %{buildroot}/usr/share/package-licenses/ibus-libpinyin/8624bcdae55baeef00cd11d5dfcfa60f68710a02 || :

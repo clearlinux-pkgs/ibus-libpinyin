@@ -1,3 +1,156 @@
+commit a4135b9cc686f2c269d535dba2602ebd112aca75
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   2023-07-28 18:21:06 +0200
+
+    Translated using Weblate (German)
+    
+    Currently translated at 100.0% (167 of 167 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/de/
+
+M	po/de.po
+
+commit 80c949e9d6a2c2bb6bd486ff25ed7da7801ecc60
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-09-04 12:56:24 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit 14f03c819a8daf82a0e09caadf69930b6d9bb803
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-08-28 09:32:08 +0800
+
+    Update network.txt again
+
+M	data/network.txt
+
+commit 0f1a5b62493f115c36f63571763835818343d5a0
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-08-24 14:26:05 +0800
+
+    Update network.txt
+
+M	data/network.txt
+
+commit f2dbbc238c008f20285536866ff5b5f931299eda
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-08-23 15:26:15 +0800
+
+    Fix Caps Lock for English mode
+
+M	src/PYPPinyinEngine.cc
+
+commit f67adf924e4a9cc3b06c30ede8602bd0931798d7
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-07-17 16:18:51 +0800
+
+    Update make-check.yml
+
+M	.github/workflows/make-check.yml
+
+commit 7540cc2da6fa0e284bd3123199934fbb2d7d7f33
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-06-16 12:19:31 +0800
+
+    Port ibus-libpinyin to use libsoup3
+
+M	src/PYPCloudCandidates.cc
+M	src/PYPCloudCandidates.h
+
+commit 2769ae5534a4a6c0480270ca1c42777a03eb7ab3
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-06-16 12:19:02 +0800
+
+    Bump version 1.15.4
+
+M	configure.ac
+
+commit 60cfb354472ac56072b65f54a114c5630ca98426
+Author: grimst <grimaitres@gmail.com>
+Date:   2023-05-31 07:20:45 +0200
+
+    Translated using Weblate (French)
+    
+    Currently translated at 98.2% (164 of 167 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/fr/
+
+M	po/fr.po
+
+commit 6bd6a5388525b96577db0eabbf85c344345c7da5
+Author: Rafael Fontenelle <rafaelff@gnome.org>
+Date:   2023-05-31 07:20:45 +0200
+
+    Translated using Weblate (Portuguese (Brazil))
+    
+    Currently translated at 50.8% (85 of 167 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/pt_BR/
+
+M	po/pt_BR.po
+
+commit 6678170748576c0ecfdbf7dd13134aa8518b594b
+Author: Emilio Herrera <ehespinosa57@gmail.com>
+Date:   2023-05-31 07:20:44 +0200
+
+    Translated using Weblate (Spanish)
+    
+    Currently translated at 94.6% (158 of 167 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/es/
+
+M	po/es.po
+
+commit 94fe103246750d40b613e51640250d1af4cbfa3b
+Author: Temuri Doghonadze <temuri.doghonadze@gmail.com>
+Date:   2023-05-31 07:20:44 +0200
+
+    Translated using Weblate (Georgian)
+    
+    Currently translated at 56.8% (95 of 167 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/ka/
+    
+    Translated using Weblate (Georgian)
+    
+    Currently translated at 56.2% (94 of 167 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/ka/
+    
+    Translated using Weblate (Georgian)
+    
+    Currently translated at 53.2% (89 of 167 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/ka/
+    
+    Translated using Weblate (Georgian)
+    
+    Currently translated at 43.1% (72 of 167 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/ka/
+    
+    Translated using Weblate (Georgian)
+    
+    Currently translated at 42.5% (71 of 167 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/ka/
+    
+    Added translation using Weblate (Georgian)
+
+M	po/LINGUAS
+A	po/ka.po
+
 commit c68cf2afda47cf8aca35178072d0770e22254e46
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2023-06-01 10:39:44 +0800
