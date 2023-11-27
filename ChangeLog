@@ -1,3 +1,35 @@
+commit fb2ace4ba4cace96e10d85970c42a7ebc04070ae
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-11-27 14:12:27 +0800
+
+    Bump version 1.15.5
+
+M	configure.ac
+
+commit d393aa7d088fab8b5a07250d80d4f0e9ee4040d1
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-11-27 14:10:21 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit 850274a6b1e34df4dcfd2911cf1a2b23ca0b72ac
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-09-27 12:02:49 +0800
+
+    Fix class LibPinyinBackEnd
+
+M	src/PYLibPinyin.cc
+
+commit fbeefffb66a88dc95902f3683e62e5c6e39e6ce5
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-09-26 11:14:35 +0800
+
+    Update libpinyin.appdata.xml
+
+M	data/libpinyin.appdata.xml
+
 commit a4135b9cc686f2c269d535dba2602ebd112aca75
 Author: Mike FABIAN <mfabian@redhat.com>
 Date:   2023-07-28 18:21:06 +0200
