@@ -1,3 +1,28 @@
+commit f19b22952c084823e68fea61c9125fe41c224c2a
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-12-15 12:26:42 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit 54567daeccce435cc796da5706e413ae8ac98f42
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-12-15 12:25:33 +0800
+
+    Bump version 1.15.6
+
+M	configure.ac
+
+commit 48269b7667a124af29d41f2be4e21a00e2f3fa80
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2023-12-06 12:01:34 +0800
+
+    Fix processAccelKeyEvent method
+
+M	src/PYPBopomofoEngine.cc
+M	src/PYPPinyinEngine.cc
+
 commit fb2ace4ba4cace96e10d85970c42a7ebc04070ae
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2023-11-27 14:12:27 +0800

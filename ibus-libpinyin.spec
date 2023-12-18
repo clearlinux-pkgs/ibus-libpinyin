@@ -6,10 +6,10 @@
 # autospec commit: c1050fe
 #
 Name     : ibus-libpinyin
-Version  : 1.15.5
-Release  : 30
-URL      : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.15.5.tar.gz
-Source0  : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.15.5.tar.gz
+Version  : 1.15.6
+Release  : 31
+URL      : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.15.6.tar.gz
+Source0  : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.15.6.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-3.0
@@ -71,10 +71,10 @@ locales components for the ibus-libpinyin package.
 
 
 %prep
-%setup -q -n ibus-libpinyin-1.15.5
-cd %{_builddir}/ibus-libpinyin-1.15.5
+%setup -q -n ibus-libpinyin-1.15.6
+cd %{_builddir}/ibus-libpinyin-1.15.6
 pushd ..
-cp -a ibus-libpinyin-1.15.5 buildavx2
+cp -a ibus-libpinyin-1.15.6 buildavx2
 popd
 
 %build
@@ -82,7 +82,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1701968945
+export SOURCE_DATE_EPOCH=1702920189
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -125,7 +125,7 @@ FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS"
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
-export SOURCE_DATE_EPOCH=1701968945
+export SOURCE_DATE_EPOCH=1702920189
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/ibus-libpinyin
 cp %{_builddir}/ibus-libpinyin-%{version}/COPYING %{buildroot}/usr/share/package-licenses/ibus-libpinyin/8624bcdae55baeef00cd11d5dfcfa60f68710a02 || :
