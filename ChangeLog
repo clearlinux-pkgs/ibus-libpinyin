@@ -1,3 +1,76 @@
+commit 1a0dd87cbb49511ef52f03153daa99ce6fa0c3bd
+Author: Damien Pou <dampato+linux@ik.me>
+Date:   2024-01-16 14:37:08 +0100
+
+    Translated using Weblate (French)
+    
+    Currently translated at 100.0% (167 of 167 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/fr/
+
+M	po/fr.po
+
+commit d88c0a3011f6dfa587e768f2ce7e024d843727c8
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-01-31 10:01:42 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit 1c69ff8d50adee23c9cc45f4b59977efa53ac9fc
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-01-31 09:58:24 +0800
+
+    Bump version 1.15.7
+
+M	configure.ac
+
+commit 312d3908da8dc50b27b2100152beff73a8bef534
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-01-31 09:52:08 +0800
+
+    Fix getRequestString method
+
+M	src/PYPCloudCandidates.cc
+
+commit f91bbc04cd0ac0651575c8964e8ed6fc585eafe2
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-01-30 17:37:51 +0800
+
+    Fix processKeyEvent methods again
+
+M	src/PYEditor.cc
+M	src/PYEnglishEditor.cc
+M	src/PYExtEditor.cc
+M	src/PYFallbackEditor.cc
+M	src/PYPDoublePinyinEditor.cc
+M	src/PYPFullPinyinEditor.cc
+M	src/PYPPhoneticEditor.cc
+M	src/PYPPinyinEditor.cc
+M	src/PYPSuggestionEditor.cc
+M	src/PYPunctEditor.cc
+M	src/PYTableEditor.cc
+
+commit 5fe4e0f08cf1bf4199900d35383eacee197c08a7
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-01-26 10:52:20 +0800
+
+    Fix processKeyEvent method
+
+M	src/PYPBopomofoEditor.cc
+
+commit cf33a2c289f7676a36954bdcf700a9d0086d6886
+Author: Florian Weimer <fweimer@redhat.com>
+Date:   2024-01-21 14:35:27 +0100
+
+    Lua plugin: Add pointer casts for C89 compatibility
+    
+    This addresses a build failure with GCC 14.
+
+M	lua/lua-plugin-init.c
+
 commit f19b22952c084823e68fea61c9125fe41c224c2a
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2023-12-15 12:26:42 +0800
