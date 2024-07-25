@@ -1,3 +1,68 @@
+commit 1e37dd13d9f50812961edaefa7be97954946710e
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-07-25 13:56:49 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit 30d07aa285a896c7b0b25cff3a242ebc374421a0
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-07-25 13:55:56 +0800
+
+    Bump version 1.15.8
+
+M	configure.ac
+
+commit f6c0271964fb821c800ef1a5c452dedc0c48b679
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-05-27 12:12:21 +0800
+
+    Update opencc-config to use s2tw.json
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+commit a1aad11c16d95be9e6660bcc89007af5395634fc
+Author: Shun Wang <shuonwang@gmail.com>
+Date:   2024-04-28 21:42:39 +0800
+
+    Update the Copyright year in setup dialog
+
+M	po/ca.po
+M	po/cs.po
+M	po/de.po
+M	po/es.po
+M	po/fr.po
+M	po/ibus-libpinyin.pot
+M	po/ka.po
+M	po/pt_BR.po
+M	po/ru.po
+M	po/si.po
+M	po/uk.po
+M	po/zh_CN.po
+M	po/zh_HK.po
+M	po/zh_TW.po
+M	setup/ibus-libpinyin-preferences.ui
+M	setup/main2.py
+
+commit 49bb44333c8128b3d987d7b5f41263280e5a3d7b
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-04-10 13:45:59 +0800
+
+    Fix lua plugin
+
+M	lua/lua-plugin-init.c
+
+commit f9df7676987e71855b41728a8168e1c5665d01b2
+Author: Titor8115 <henryl8115@gmail.com>
+Date:   2024-02-17 10:55:06 +0800
+
+    GtkDialog "type-hint" changed to dialog
+    
+    the dialog window should be hinted as dialog so window managers such as tiling wm is able to know the approprate window state
+
+M	setup/ibus-libpinyin-preferences.ui
+
 commit 1a0dd87cbb49511ef52f03153daa99ce6fa0c3bd
 Author: Damien Pou <dampato+linux@ik.me>
 Date:   2024-01-16 14:37:08 +0100
