@@ -7,7 +7,7 @@
 #
 Name     : ibus-libpinyin
 Version  : 1.15.8
-Release  : 33
+Release  : 34
 URL      : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.15.8.tar.gz
 Source0  : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.15.8.tar.gz
 Summary  : No detailed summary available
