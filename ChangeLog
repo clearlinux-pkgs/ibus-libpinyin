@@ -1,3 +1,97 @@
+commit 63f16aa80745e56913f9a8eaea07c24dc72b06cd
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-10-14 10:47:02 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit 4d8d08847d1a68464733ea04fd1c1d2cf5fd5c6c
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-10-12 11:32:39 +0800
+
+    Use pinyin_guess_predicted_candidates_with_punctuations function
+
+M	src/PYPEnhancedCandidates.h
+M	src/PYPSuggestionCandidates.cc
+M	src/PYPSuggestionEditor.cc
+
+commit 01a5926c2053fd800927a513a4fe6802d77862d1
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-10-12 11:21:08 +0800
+
+    Bump version 1.15.92
+
+M	configure.ac
+
+commit fd936ad0cc3ad4786dd6a5f9fd8a0fb04761dab8
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-09-23 11:10:59 +0800
+
+    Fix resource leak
+
+M	lua/lua-ext-console.c
+M	src/PYTableDatabase.cc
+
+commit cf67e92af0a9a8953eaa708312520f6f8481678e
+Author: ZhaoQiang <qzhao@suse.com>
+Date:   2024-09-19 19:11:20 +0800
+
+    Revert python3 version checking to 3.2
+
+M	configure.ac
+
+commit 5b794d456383be5faa1be65701aeec5170cbc3a7
+Author: Zhijie Yang <zhijie.yang1@outlook.com>
+Date:   2024-09-06 01:27:14 +0200
+
+    fix(wordlist): remove some words
+
+M	data/wordlist
+
+commit 1a88675516d9fd155d4055d13355c66b7d5757e6
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-08-07 13:01:43 +0800
+
+    Fix LibPinyinBackEnd::exportPinyinDictionary method
+
+M	src/PYLibPinyin.cc
+
+commit e9935e4a3f4e7393a007e23468ab11d95edd54b6
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-08-02 15:03:30 +0800
+
+    Bump version 1.15.91
+
+M	configure.ac
+
+commit d634f9c353e254aa9c7dc4a5883b7d57f3072a39
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-08-01 12:16:52 +0800
+
+    Refactor LibPinyinBackEnd::exportPinyinDictionary method
+
+M	src/PYLibPinyin.cc
+M	src/PYLibPinyin.h
+
+commit 656820c931ddecacbaf6a6872baccdd1043c6894
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-07-30 13:49:50 +0800
+
+    Update PinyinConfig
+
+M	src/PYConfig.cc
+M	src/PYConfig.h
+M	src/PYPConfig.cc
+
+commit a8b13a41315360238b459021a6a3c0de12af68cb
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-07-30 12:45:52 +0800
+
+    Update com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+
 commit 1e37dd13d9f50812961edaefa7be97954946710e
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2024-07-25 13:56:49 +0800
