@@ -7,7 +7,7 @@
 #
 Name     : ibus-libpinyin
 Version  : 1.15.92
-Release  : 36
+Release  : 37
 URL      : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.15.92.tar.gz
 Source0  : https://sourceforge.net/projects/libpinyin/files/ibus-libpinyin/ibus-libpinyin-1.15.92.tar.gz
 Summary  : No detailed summary available
