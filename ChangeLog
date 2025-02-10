@@ -1,3 +1,560 @@
+commit 3ca9dfa36553daba4658ea1d2525ad65825f7bde
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-02-10 12:08:30 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit 00beb5ad0369a1c5aa550f84ef5ece2fca1bacf9
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-02-10 12:05:57 +0800
+
+    Bump version 1.16.0
+
+M	configure.ac
+
+commit 0a5435fa28a88b853747f1ca6347213e6503d97d
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-13 11:00:00 +0800
+
+    Fix PinyinProperties::propertyActivate method
+
+M	src/PYPinyinProperties.cc
+
+commit b0ce1ef904484642874bafad180ed3a805009cad
+Author: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>
+Date:   2025-01-09 09:49:29 +0100
+
+    Translated using Weblate (Georgian)
+    
+    Currently translated at 54.4% (97 of 178 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/ka/
+
+M	po/ka.po
+
+commit 9321796b6999a2fdd7ea7ea422e755a0dfe9beb8
+Author: Peng Wu <pwu@redhat.com>
+Date:   2025-01-09 09:49:29 +0100
+
+    Translated using Weblate (Chinese (Simplified) (zh_CN))
+    
+    Currently translated at 100.0% (178 of 178 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/zh_CN/
+
+M	po/zh_CN.po
+
+commit 2cce114b1054375f19be00f9e6a5bebd0bc92135
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   2025-01-09 09:49:29 +0100
+
+    Translated using Weblate (German)
+    
+    Currently translated at 100.0% (178 of 178 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/de/
+
+M	po/de.po
+
+commit 24f0a9d0cc22611454221bd5b76f4d6f8c693e3d
+Author: Yuri Chornoivan <yurchor@ukr.net>
+Date:   2025-01-09 09:49:29 +0100
+
+    Translated using Weblate (Ukrainian)
+    
+    Currently translated at 100.0% (178 of 178 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/uk/
+
+M	po/uk.po
+
+commit 0619e3261c6627f5e23f298ebb8d6fd8bcf52035
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-09 15:17:22 +0800
+
+    Fix PinyinProperties::propertyActivate method
+
+M	src/PYPinyinProperties.cc
+M	src/PYProperty.h
+
+commit 2c247e278a91bac283472e5ec6d42176768c26f7
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-09 14:42:25 +0800
+
+    Fix PYPinyinProperties.cc
+
+M	src/PYPinyinProperties.cc
+
+commit f10300906d9c5d856ccb5e6a5191090304f1d25d
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-09 12:16:37 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit 185e5d54d4f5f3df985446bd6fbde9f88d075a8b
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-09 11:46:00 +0800
+
+    Fix PinyinEngine::processKeyEvent method
+
+M	src/PYPPinyinEngine.cc
+
+commit 17bcdb18708fba5c91c0b37b5dde321ef16aa068
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-08 11:58:26 +0800
+
+    Update po files
+
+M	po/ca.po
+M	po/cs.po
+M	po/de.po
+M	po/el.po
+M	po/es.po
+M	po/fr.po
+M	po/ibus-libpinyin.pot
+M	po/ka.po
+M	po/pt_BR.po
+M	po/ru.po
+M	po/si.po
+M	po/uk.po
+M	po/zh_CN.po
+M	po/zh_HK.po
+M	po/zh_TW.po
+
+commit 01210878081b4e351a755b7b74e0675199d1420e
+Author: Biswapriyo Nath <nathbappai@gmail.com>
+Date:   2025-01-06 15:27:02 +0000
+
+    Fix compiler error with clang 19
+
+M	src/PYLibPinyin.h
+
+commit bab868cd3684c98feed4b788654efd5445ea5e80
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-07 11:45:23 +0800
+
+    Support square bracket page option
+
+M	src/PYEnglishEditor.cc
+M	src/PYEnglishEditor.h
+M	src/PYExtEditor.cc
+M	src/PYPPinyinEditor.cc
+M	src/PYPPinyinEngine.cc
+M	src/PYPSuggestionEditor.cc
+M	src/PYTableEditor.cc
+
+commit 419f189e2aa0e0b48a201481d2e7f864ae0ca574
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-07 11:42:21 +0800
+
+    Update class Config
+
+M	src/PYConfig.cc
+M	src/PYConfig.h
+M	src/PYPConfig.cc
+
+commit 3c83f1d96c9d9a84b5b27229eab62eced59f6141
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-07 11:40:43 +0800
+
+    Update main2.py
+
+M	setup/main2.py
+
+commit bc39c6fbd8c4f2c2a5f34dc4b9f6474253d57b35
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-07 11:41:26 +0800
+
+    Update ibus-libpinyin-preferences.ui
+
+M	setup/ibus-libpinyin-preferences.ui
+
+commit 7470e747a0e8770acf537e4ea3399913ca09c7c7
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-07 11:39:58 +0800
+
+    Update com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+commit 0a97f06d13d98c9b3bc0bafa92931b9868810c40
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-03 13:35:44 +0800
+
+    Bump version 1.15.94
+
+M	configure.ac
+
+commit 46df8429b99342e8b6fb890775ddcbbd86320084
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-03 13:09:55 +0800
+
+    Update class PinyinEngine
+
+M	src/PYPPinyinEngine.cc
+
+commit 171d585e63dc75cf9c7de7ea1577d87490f4f3c4
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-03 13:08:37 +0800
+
+    Update class PinyinProperties
+
+M	src/PYPinyinProperties.cc
+M	src/PYPinyinProperties.h
+
+commit b50d207620c2849f09f28380631f643a6455a61b
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-03 13:07:51 +0800
+
+    Update class Property
+
+M	src/PYProperty.h
+
+commit 05e33257927fba0e19f4d1409013b324a4517a92
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-03 13:06:05 +0800
+
+    Write luaConverter method
+
+M	src/PYConfig.h
+M	src/PYPConfig.cc
+M	src/PYPConfig.h
+
+commit 3e326ef1b20fe523cd60da8eccec40f62da2ada4
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-03 13:04:34 +0800
+
+    Update ibus_engine_plugin_set_converter function
+
+M	lua/lua-plugin.c
+
+commit a5908b54351072241a5c259543f7d428069306af
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-03 13:03:04 +0800
+
+    Update Makefile.am
+
+M	data/icons/Makefile.am
+
+commit 917e68be324bd033cd4c0319a4f41946f2202a3f
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-01-03 13:01:53 +0800
+
+    Import lua-converter.svg
+
+A	data/icons/lua-converter.svg
+
+commit b03de1e2da68faa183e7b9bff00019f51d4816c3
+Author: Peng Wu <pwu@redhat.com>
+Date:   2024-12-23 05:40:04 +0100
+
+    Translated using Weblate (Chinese (Simplified) (zh_CN))
+    
+    Currently translated at 100.0% (174 of 174 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/zh_CN/
+
+M	po/zh_CN.po
+
+commit b95496cd804d954e86eeac159b6590e36e221e52
+Author: Temuri Doghonadze <temuri.doghonadze@gmail.com>
+Date:   2024-12-23 05:40:04 +0100
+
+    Translated using Weblate (Georgian)
+    
+    Currently translated at 55.1% (96 of 174 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/ka/
+
+M	po/ka.po
+
+commit 661322eddb90b8796650558a505849d8f8954817
+Author: Mike FABIAN <mfabian@redhat.com>
+Date:   2024-12-23 05:40:04 +0100
+
+    Translated using Weblate (German)
+    
+    Currently translated at 100.0% (174 of 174 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/de/
+
+M	po/de.po
+
+commit 391ec0df95d0e529f637a4bcbeae3d19c841d6bd
+Author: Yuri Chornoivan <yurchor@ukr.net>
+Date:   2024-12-23 05:40:04 +0100
+
+    Translated using Weblate (Ukrainian)
+    
+    Currently translated at 100.0% (174 of 174 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/uk/
+
+M	po/uk.po
+
+commit 1b58b689f2972aea82551659135968739e0a7c7c
+Author: Weblate <noreply@weblate.org>
+Date:   2024-12-16 04:31:17 +0100
+
+    Update translation files
+    
+    Updated by "Update PO files to match POT (msgmerge)" hook in Weblate.
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/
+
+M	po/ca.po
+M	po/cs.po
+M	po/de.po
+M	po/el.po
+M	po/es.po
+M	po/fr.po
+M	po/ka.po
+M	po/pt_BR.po
+M	po/ru.po
+M	po/si.po
+M	po/uk.po
+M	po/zh_CN.po
+M	po/zh_HK.po
+M	po/zh_TW.po
+
+commit bf05c65d887ce48d5623fe7ec464d76442edc0ed
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-12-16 11:33:10 +0800
+
+    Update ibus-libpinyin.pot
+
+M	po/ibus-libpinyin.pot
+
+commit c02ff10c721b042282b9db034436e3a2ef0325ae
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-12-16 11:26:58 +0800
+
+    Update POTFILES.in
+
+M	po/POTFILES.in
+
+commit ec7a7174048c965a3c8e7655b8052dea5477b3a4
+Author: Weblate <noreply@weblate.org>
+Date:   2024-09-08 15:38:29 +0200
+
+    Update translation files
+    
+    Updated by "Update PO files to match POT (msgmerge)" hook in Weblate.
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/
+
+M	po/de.po
+M	po/el.po
+M	po/es.po
+M	po/fr.po
+M	po/ka.po
+M	po/ru.po
+M	po/uk.po
+
+commit eb9cc96b4cbe338fb4073bfe6bb056bab3c6e254
+Author: Giannis Antypas <gianni.antypas@gmail.com>
+Date:   2024-09-08 15:38:29 +0200
+
+    Translated using Weblate (Greek)
+    
+    Currently translated at 13.1% (22 of 167 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/el/
+    
+    Added translation using Weblate (Greek)
+
+M	po/LINGUAS
+A	po/el.po
+
+commit 17d0943822e6f1dcff6c40392f1b293eb5c32847
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-12-13 11:00:17 +0800
+
+    Update PYMain.cc
+
+M	src/PYMain.cc
+
+commit 021758ac36d4cbac591ac00e2d873200b232c702
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-12-13 10:51:51 +0800
+
+    Fix show_message usage
+
+M	src/PYPConfig.cc
+
+commit 12803f984db8f65a494cb89bad6811d44043e3d2
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-12-13 10:45:20 +0800
+
+    Update make-check.yml
+
+M	.github/workflows/make-check.yml
+
+commit d85ad74524cbbc5260d4e2fd5745d01eaceed771
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-12-13 10:25:21 +0800
+
+    Init libnotify
+
+M	src/PYMain.cc
+
+commit a857787b938a3bdd96776b7fc71223c2f18c0f89
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-12-13 10:24:16 +0800
+
+    Use show_message function
+
+M	src/PYPConfig.cc
+
+commit db736f56f35909a2d652656a044a72302481a429
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-12-13 10:21:26 +0800
+
+    Write show_message function
+
+M	src/PYXMLUtil.cc
+M	src/PYXMLUtil.h
+
+commit 0c430a76f005b34f360e58ae2455de66b4dcd95b
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-12-13 10:20:17 +0800
+
+    Update src/Makefile.am
+
+M	src/Makefile.am
+
+commit 9472a50303f434221f298fd0daa601053113ad48
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-12-13 10:19:44 +0800
+
+    Update configure.ac
+
+M	configure.ac
+
+commit a7c3f19ffff8cdf6f69f11b395bf438dbf1a5fea
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-12-11 15:06:46 +0800
+
+    Bump version 1.15.93
+
+M	configure.ac
+
+commit d92cc93e9b56fce21df9574bdb67139bb1acff4e
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-12-10 16:12:31 +0800
+
+    Update Makefile.am
+
+M	setup/Makefile.am
+M	src/Makefile.am
+
+commit f83bad19822b4e0a53bd8c0c27be94256d34425f
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-12-10 16:12:05 +0800
+
+    Support xml option
+
+M	src/PYMain.cc
+
+commit 877493e68c47b827d3d823b0ce64695db42e390e
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-12-10 16:11:21 +0800
+
+    Write parse_engine_version function
+
+A	src/PYXMLUtil.cc
+A	src/PYXMLUtil.h
+
+commit 6fdd4f2110f5f4d06f133e5041971916c8fb6cfe
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-12-03 10:36:38 +0800
+
+    Update main2.py
+
+M	setup/main2.py
+
+commit cce110f3d31031fc5fbbea2f54277def1ee6e4c2
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-12-03 10:35:32 +0800
+
+    Write enginefile.py
+
+A	setup/enginefile.py
+
+commit cf16040d4a7db02412e0ec63184ef63e66179ebc
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-12-03 10:34:20 +0800
+
+    Update ibus-libpinyin-preferences.ui
+
+M	setup/ibus-libpinyin-preferences.ui
+
+commit cfdc88bb7c194d7b22dfefdf13f15c9f57e12836
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-10-31 11:50:05 +0800
+
+    Update libpinyin.xml
+
+A	src/default.inputmethod.xml.in.in
+A	src/libpinyin.inputmethod.xml.in.in
+D	src/libpinyin.xml.in.in
+
+commit aac9a2c9a7a3b7f9767fb3df271fca0ea2017c8b
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-10-31 11:48:49 +0800
+
+    Update Makefile.am
+
+M	configure.ac
+M	src/Makefile.am
+
+commit c94eef9976be804a947ffdcd3b5c4b78f976c8ac
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-10-31 11:47:54 +0800
+
+    Update ibus-libpinyin-preferences.ui
+
+M	setup/ibus-libpinyin-preferences.ui
+
+commit 8fb1deb5afead53e7f8c95f434e8deb217375f64
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-10-31 11:47:02 +0800
+
+    Update com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+M	data/com.github.libpinyin.ibus-libpinyin.gschema.xml
+
+commit 0a754842779ce40ef5018af854569df54c6ab8ad
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-10-23 16:21:48 +0800
+
+    Fix about icon
+
+M	setup/main2.py
+
+commit c361a1e52164c7bf6be1e15b5b2c2f77e0bbd63d
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2024-10-23 16:20:32 +0800
+
+    Update ibus-libpinyin-preferences.ui
+
+M	setup/ibus-libpinyin-preferences.ui
+
 commit 63f16aa80745e56913f9a8eaea07c24dc72b06cd
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2024-10-14 10:47:02 +0800
