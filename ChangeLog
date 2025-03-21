@@ -1,3 +1,50 @@
+commit e4d3e58eafe0b17dd298f3f1de5ca359e37aa04c
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-03-21 12:38:29 +0800
+
+    Bump version 1.16.1
+
+M	configure.ac
+
+commit c09a8e7655e77ca84e52b5ce638198235b603c4b
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-03-21 12:37:53 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit 6ca84a9acc1a3bea7530965cd393835c8e42668d
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-03-14 10:59:41 +0800
+
+    Fix some warnings in the code
+
+M	src/PYEnglishDatabase.cc
+M	src/PYTableDatabase.cc
+
+commit 4b1150480d26f9ae39e8f9e6f0b7de1c7eae8ec7
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-03-11 14:36:29 +0800
+
+    Refactor PinyinProperties::propertyActivate method
+
+M	src/PYPinyinProperties.cc
+M	src/PYPinyinProperties.h
+
+commit bbf2962050bccb4267b7d75af01c6f652b4e9ecb
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-03-06 13:12:30 +0800
+
+    Fix the lookup cursor for the pinyin candidates
+
+M	src/PYPBopomofoEditor.cc
+M	src/PYPDoublePinyinEditor.cc
+M	src/PYPFullPinyinEditor.cc
+M	src/PYPLibPinyinCandidates.cc
+M	src/PYPPhoneticEditor.cc
+M	src/PYPPhoneticEditor.h
+
 commit 3ca9dfa36553daba4658ea1d2525ad65825f7bde
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2025-02-10 12:08:30 +0800
