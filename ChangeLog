@@ -1,3 +1,44 @@
+commit 152252556685b79105912a8296b232b38af07c34
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-04-18 12:09:52 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit a0e5aab3914447d8f4f355091eb9225a22589f3f
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-04-18 12:04:04 +0800
+
+    Bump version 1.16.2
+
+M	configure.ac
+
+commit 35be773bec35104a62288b1259a3315ffe5cf0dc
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-04-14 11:40:37 +0800
+
+    Fix CI tests
+
+M	.github/workflows/make-check.yml
+
+commit dabb12166c35b5f6832d53675e01415124d1479d
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-04-14 11:07:41 +0800
+
+    Fix Lua converter
+
+M	src/PYPPinyinEngine.cc
+
+commit 73c69e2f81f2568f813e7e75f77d6d993e4cbb7f
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-04-14 10:57:11 +0800
+
+    Fix English mode
+
+M	src/PYEnglishDatabase.cc
+M	src/PYEnglishDatabase.h
+
 commit e4d3e58eafe0b17dd298f3f1de5ca359e37aa04c
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2025-03-21 12:38:29 +0800
