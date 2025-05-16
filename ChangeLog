@@ -1,3 +1,61 @@
+commit 3c34eb7f1685f28b2df9c934087073de11c1b0a0
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-05-15 16:04:43 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit aa7cc7be29c15e397e6527aa64c5e5dcd4f6c69c
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-05-15 16:01:48 +0800
+
+    Bump version 1.16.3
+
+M	configure.ac
+
+commit 639f9022aea653b4345c38bd27a896281712463a
+Author: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>
+Date:   2025-04-12 11:53:35 +0000
+
+    Translated using Weblate (Spanish)
+    
+    Currently translated at 100.0% (178 of 178 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/es/
+
+M	po/es.po
+
+commit d119d38f161dde7973a868f7e2ae8db89cf7b141
+Author: Javier Francisco <fserrador@gmail.com>
+Date:   2025-04-12 11:53:35 +0000
+
+    Translated using Weblate (Spanish)
+    
+    Currently translated at 100.0% (178 of 178 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/es/
+
+M	po/es.po
+
+commit 33ff0da40a7256adb904e3f74ba73937c9a69500
+Author: czxdev <36617515+czxdev@users.noreply.github.com>
+Date:   2025-04-20 00:22:51 +0800
+
+    Avoid memory leak of user_data
+
+M	src/PYPCloudCandidates.cc
+
+commit efa3a64de2aec9e1b1fa2a62ecc1d4f805e2007f
+Author: czxdev <36617515+czxdev@users.noreply.github.com>
+Date:   2025-04-17 23:52:00 +0800
+
+    Fix segmentation fault in processCloudResponse
+
+M	src/PYPCloudCandidates.cc
+
 commit 152252556685b79105912a8296b232b38af07c34
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2025-04-18 12:09:52 +0800
