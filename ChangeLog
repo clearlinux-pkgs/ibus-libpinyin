@@ -1,3 +1,103 @@
+commit 604645297e3bc2c92d6a57ecf8a1c061ec7d2192
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-06-17 11:12:02 +0800
+
+    Update NEWS
+
+M	NEWS
+
+commit 4701080806781e12e75183d354c5463982396f58
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-06-17 11:10:31 +0800
+
+    Bump version 1.16.4
+
+M	configure.ac
+
+commit a97f1def22477c80eef3207b8f2b23018828811c
+Author: ZhaoQiang <qzhao@suse.com>
+Date:   2025-06-02 12:17:52 +0800
+
+    Fix import and export data default from program dir
+
+M	setup/main2.py
+
+commit 15d7268cd8fdfa461b832edc5c246ef018938a41
+Author: ZhaoQiang <qzhao@suse.com>
+Date:   2025-06-01 23:59:47 +0800
+
+    Disable Simplified and Traditional switch in English input mode
+
+M	src/PYPinyinProperties.cc
+
+commit a76e9377d0fbe0618c261f2f40bb4c84376ff6ca
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-05-20 14:23:14 +0800
+
+    Fix ime_get_version function
+
+M	lua/lua-plugin-init.c
+
+commit b291d55ec65a4b8360f227631757cd6a35f3084f
+Author: Peng Wu <alexepico@gmail.com>
+Date:   2025-05-20 14:01:23 +0800
+
+    Fix some warnings
+
+M	lua/lua-plugin-init.c
+
+commit 592c84ebfca73bb0c5721cbf1455eb5d05f7f316
+Author: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>
+Date:   2025-05-18 11:00:36 +0000
+
+    Translated using Weblate (Catalan)
+    
+    Currently translated at 98.8% (176 of 178 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/ca/
+
+M	po/ca.po
+
+commit 2f2b3fbb3cab6415c6b14e7deeb74f203d8b828a
+Author: naly zzwd <xeanhort007@gmail.com>
+Date:   2025-05-18 11:00:36 +0000
+
+    Translated using Weblate (Catalan)
+    
+    Currently translated at 98.8% (176 of 178 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/ca/
+
+M	po/ca.po
+
+commit 1aedcaa2bedbbfeebda1bd9caa9f648483082508
+Author: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>
+Date:   2025-05-18 11:00:36 +0000
+
+    Translated using Weblate (Georgian)
+    
+    Currently translated at 100.0% (178 of 178 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/ka/
+
+M	po/ka.po
+
+commit 0cb6a3974306acdadd25e3bdad016a083cfd13b8
+Author: Temuri Doghonadze <temuri.doghonadze@gmail.com>
+Date:   2025-05-18 11:00:36 +0000
+
+    Translated using Weblate (Georgian)
+    
+    Currently translated at 100.0% (178 of 178 strings)
+    
+    Translation: ibus-libpinyin/main
+    Translate-URL: https://translate.fedoraproject.org/projects/ibus-libpinyin/main/ka/
+
+M	po/ka.po
+
 commit 3c34eb7f1685f28b2df9c934087073de11c1b0a0
 Author: Peng Wu <alexepico@gmail.com>
 Date:   2025-05-15 16:04:43 +0800
